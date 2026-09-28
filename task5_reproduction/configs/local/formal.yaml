@@ -1,0 +1,7 @@
+# Server-local formal run configuration. Runtime artifacts use the
+# dedicated writable checkpoint filesystem mounted at /mnt/luoyulin_ckpt.
+extends: [server.yaml]
+
+execution:
+  device: cuda:0
+  output_root: /mnt/luoyulin_ckpt/fanxuankai/task5_reproduction_output

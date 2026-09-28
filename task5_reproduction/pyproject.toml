@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task5-routing-testbed"
+version = "0.1.0"
+description = "Independent frozen-expert routing experiments: train, capture, metrics, figures"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "pyarrow==25.0.1", "matplotlib>=3.8,<4", "PyYAML==6.0.3"]
+
+[project.optional-dependencies]
+model = ["torch==2.11.0", "transformers==4.57.6", "datasets==3.6.0", "sentencepiece>=0.2,<0.3", "protobuf>=4"]
+
+[project.scripts]
+task5 = "task5.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

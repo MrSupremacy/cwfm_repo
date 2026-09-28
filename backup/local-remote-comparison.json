@@ -1,0 +1,635 @@
+{
+  "task5_reproduction": {
+    "counts": {
+      "newline_only": 100,
+      "remote_only": 44,
+      "identical": 37
+    },
+    "differences": [
+      {
+        "path": "RUNBOOK.md",
+        "status": "newline_only"
+      },
+      {
+        "path": ".gitattributes",
+        "status": "newline_only"
+      },
+      {
+        "path": "README.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "newline_only"
+      },
+      {
+        "path": ".gitignore",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/fixtures/tiny_model.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/fixtures/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/fixtures/offline.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/regression/test_r3_rms.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/regression/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/integration/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/integration/test_preprocessing.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/integration/test_tiny_t5.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/smoke/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/smoke/test_phase_a_report.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/smoke/test_offline_pipeline.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/test_phase_a.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/test_logging.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/test_routers.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/test_metrics.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/test_config_data.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/test_shell_entrypoints.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "tests/unit/test_io.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/protocols/inputs.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/protocols/metrics.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/design/architecture.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/runbooks/server.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/phaseA_f0_validation.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/yaml_shell_migration.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/local_validation.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_validation.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/report_template.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/experiment_report_v2.md",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_load_balance_gini.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_selected_mean.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_activation_coverage_activation_coverage.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_mnli_k6_churn_churn.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_load_balance_cv.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_ratio.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_performance_relative_performance.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_sst2_k6_churn_churn.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_sst2_k6_activation_coverage_activation_coverage.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_random_mean.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_excess.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_load_balance_gini.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_ratio.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_random_mean.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_load_balance_maximum_share.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_performance_relative_performance.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_mnli_k6_activation_coverage_activation_coverage.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_sst2_k6_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_activation_coverage_activation_coverage.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_mnli_k6_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_load_balance_maximum_share.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_excess.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_selected_mean.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_load_balance_cv.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/experiment_report_draft.md",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/trajectory_mnli_k6_churn_churn.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/mnli_load_balance_cv.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/mnli_coactivation_consistency_ratio.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/sst2_performance_relative_performance.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/trajectory_sst2_k6_churn_churn.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/trajectory_sst2_k6_activation_coverage_activation_coverage.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/layers_mnli_k13_load_balance_cv.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/sst2_coactivation_consistency_ratio.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/mnli_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/mnli_performance_relative_performance.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/sst2_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/trajectory_mnli_k6_activation_coverage_activation_coverage.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/layers_sst2_k13_load_balance_cv.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/trajectory_sst2_k6_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/trajectory_mnli_k6_oracle_overlap_oracle_overlap.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/formal20260830a_analysis/figures/sst2_load_balance_cv.png",
+        "status": "remote_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/smoke_audit.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/phaseA_f0_unit.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/unit.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/phaseA_f0_real_assets.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/yaml_shell_unit.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/phase0_sst2.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/phase0_mnli.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/reports/server_evidence/resume.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "docs/decisions/current.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "configs/local/server-tested.txt",
+        "status": "newline_only"
+      },
+      {
+        "path": "docker/aihc/requirements-task5.txt",
+        "status": "newline_only"
+      },
+      {
+        "path": "docker/aihc/Dockerfile",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/README.md",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/captures/E.schema.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/captures/A.schema.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/captures/C_D.schema.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/captures/B.schema.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/metrics/condition.schema.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/results/records.schema.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "schemas/manifests/artifact.schema.json",
+        "status": "newline_only"
+      },
+      {
+        "path": "scripts/20_validate/test_local.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "scripts/20_validate/check_phaseA_f0.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "scripts/20_validate/audit_smoke.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "scripts/20_validate/check_resume.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "scripts/10_prepare/import_task4_assets.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "scripts/90_formal/recovery_plan.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/cli.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/__main__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/substrate/model.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/substrate/validation.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/substrate/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/substrate/assets.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/aggregation/pipeline.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/aggregation/phase_a.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/aggregation/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/aggregation/core.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/pipeline.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/stability/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/stability/core.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/load_balance/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/load_balance/core.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/selection_quality/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/selection_quality/core.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/performance/pipeline.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/performance/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/metrics/performance/core.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/routing/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/routing/routers.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/visualization/render.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/visualization/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/data/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/data/datasets.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/capture/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/capture/storage.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/capture/runner.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/training/schedule.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/training/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/training/checkpoints.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/training/runner.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/common/io.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/common/randomness.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/common/__init__.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/common/context.py",
+        "status": "newline_only"
+      },
+      {
+        "path": "src/task5/common/config.py",
+        "status": "newline_only"
+      }
+    ]
+  },
+  "task6_reproduction": {
+    "counts": {
+      "identical": 102
+    },
+    "differences": []
+  },
+  "task6_phaseB_reproduction": {
+    "counts": {
+      "identical": 98,
+      "remote_only": 1
+    },
+    "differences": [
+      {
+        "path": "configs/local/server.yaml",
+        "status": "remote_only"
+      }
+    ]
+  },
+  "task6_phaseD_reproduction": {
+    "counts": {
+      "identical": 125,
+      "remote_only": 4
+    },
+    "differences": [
+      {
+        "path": "configs/local/server.yaml",
+        "status": "remote_only"
+      },
+      {
+        "path": "configs/local/server.yaml.before_e128_e256",
+        "status": "remote_only"
+      },
+      {
+        "path": "src/task6_phased/aggregation/pipeline.py.pre_plot_fix",
+        "status": "remote_only"
+      },
+      {
+        "path": "src/task6_phased/visualization/render.py.pre_plot_fix",
+        "status": "remote_only"
+      }
+    ]
+  },
+  "task8_reproduction": {
+    "counts": {
+      "identical": 81
+    },
+    "differences": []
+  }
+}

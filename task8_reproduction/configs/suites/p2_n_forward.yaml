@@ -1,0 +1,22 @@
+extends:
+  - p01_init_best.yaml
+
+p2:
+  name: p2_n_forward_v1
+  experiments: [N2-a, N1, N3]
+  checkpoint_role: best
+  multipliers: [1, 2, 4, 8]
+  output_root: outputs_p2_n
+  p1_output_root: outputs
+  cache_dtype: float32
+  router_chunk_size: 2048
+  teacher_batch_size: 32
+  progress_interval_seconds: 10
+  heartbeat_seconds: 20
+  gap_delta: 1.0e-12
+  tie_atol: 1.0e-6
+  tie_rtol: 1.0e-6
+  expected_p1_protocol: 730800afe85266733ec5fb55f5cacf7647f89eb0b18ece948aee676748728231
+  expected_p1_source: c1948728f7ab7abee17d1529ef01d5981bbee4e7bdcb3aab468930f93000ae27
+  smoke_samples_per_task: 2
+  auto_select_temperature: false

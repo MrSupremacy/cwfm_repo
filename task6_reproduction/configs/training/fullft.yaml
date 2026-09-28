@@ -1,0 +1,23 @@
+training:
+  mode: full
+  epochs: 10
+  batch_size: 256
+  accumulation_steps: 1
+  world_size: 1
+  optimizer: Adam
+  backbone_lr: 1.0e-5
+  router_lr: 3.0e-4
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  weight_decay: 0.0
+  amsgrad: false
+  foreach: false
+  fused: false
+  warmup_ratio: 0.05
+  max_grad_norm: 1.0
+  amp: false
+  gradient_checkpointing: false
+  save_step_zero: true
+  checkpoint_payload: full_training_state
+  retain_all_scheduled: true
+  resume_states: all_epoch_boundaries

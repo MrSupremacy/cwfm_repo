@@ -1,0 +1,20 @@
+# Copy to server.yaml and replace paths. No placeholder weights are supplied.
+execution:
+  device: cuda:0
+  # Optional absolute destination; relative paths resolve against this repository.
+  # output_root: /server/task5_outputs
+
+assets:
+  sst2:
+    dense: /SET_ME/sst2/checkpoint-best
+    split: /SET_ME/sst2/parameter_seed0
+    source: local_files
+    train: /SET_ME/glue/sst2/train.parquet
+    validation: /SET_ME/glue/sst2/validation.parquet
+  mnli:
+    dense: /SET_ME/mnli/checkpoint-best
+    split: /SET_ME/mnli/parameter_seed0
+    source: local_files
+    train: /SET_ME/glue/mnli/train.parquet
+    validation: /SET_ME/glue/mnli/validation_matched.parquet
+    # For datasets.load_from_disk instead: source: load_from_disk; dataset: /path

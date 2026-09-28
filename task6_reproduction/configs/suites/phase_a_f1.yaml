@@ -1,0 +1,15 @@
+extends:
+  - ../base/default.yaml
+  - ../arms/phase_a.yaml
+  - ../training/fullft.yaml
+  - ../capture/phase_a.yaml
+  - ../metrics/phase_a.yaml
+
+suite:
+  name: phase_a_f1
+  finetune_mode: F1
+  tasks: [sst2, mnli]
+  top_k: [6, 13, 19, 26]
+  seeds: [0, 1, 2]
+  include_dense_reference: true
+  include_dense_finetuned_baseline: true

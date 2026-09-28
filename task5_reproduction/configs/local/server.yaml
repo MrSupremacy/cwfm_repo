@@ -1,0 +1,17 @@
+# Portable, copied inputs. Smoke output_root comes from configs/suites/smoke.yaml.
+execution:
+  device: cuda:0
+
+assets:
+  sst2:
+    dense: inputs/dense/sst2
+    split: inputs/expert_splits/sst2
+    source: local_files
+    train: inputs/datasets/glue/sst2/train.parquet
+    validation: inputs/datasets/glue/sst2/validation.parquet
+  mnli:
+    dense: inputs/dense/mnli
+    split: inputs/expert_splits/mnli
+    source: local_files
+    train: inputs/datasets/glue/mnli/train.parquet
+    validation: inputs/datasets/glue/mnli/validation_matched.parquet

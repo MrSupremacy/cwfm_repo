@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A: per-domain candidate-label and greedy prediction",
+  "type": "object",
+  "properties": {
+    "source_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gold": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "prediction": {
+      "oneOf": [{"type": "integer"}, {"type": "string"}]
+    },
+    "candidate_scores": {
+      "type": "array",
+      "items": {"type": "number"}
+    },
+    "correct": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "source_index",
+    "gold",
+    "prediction",
+    "candidate_scores",
+    "correct"
+  ],
+  "additionalProperties": false
+}
+

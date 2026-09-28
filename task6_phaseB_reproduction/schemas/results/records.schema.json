@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normalized or aggregated result bundle",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "protocol",
+        "analysis",
+        "run_id",
+        "suite"
+      ]
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "required": [
+    "meta",
+    "rows"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,4 @@
+extends:
+  - p01_init_best.yaml
+
+# Deprecated compatibility alias. New commands should use p01_init_best.yaml.

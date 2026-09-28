@@ -1,0 +1,9 @@
+metrics:
+  chunk_rows: 8192
+  seed_ddof: 1
+  layer_ddof: 0
+  load_balance: [cv]
+  selection_quality: [oracle_overlap, adjusted_overlap, activation_coverage]
+  oracle_resolution: [boundary_gap, normalized_boundary_gap, boundary_tie_rate, all_zero_rate]
+  stability: [churn, exact_set_change]
+  png_dpi: 300

@@ -1,0 +1,10 @@
+metrics:
+  chunk_rows: 8192
+  random_seed: 0
+  random_repeats: 100
+  random_ratio_epsilon: 1.0e-12
+  random_algorithm: PCG64_uniform_ranks_v1
+  seed_ddof: 1
+  layer_ddof: 0
+  best_patched_gate: disabled_pending_M19
+  png_dpi: 300

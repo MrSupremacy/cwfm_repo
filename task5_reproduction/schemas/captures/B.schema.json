@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "B: complete validation layer load",
+  "type": "object",
+  "properties": {
+    "layer_id": {
+      "type": "string",
+      "pattern": "^(encoder|decoder)_layer_[0-9]{2}$"
+    },
+    "valid_token_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "assignment_counts": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 64,
+      "maxItems": 64
+    }
+  },
+  "required": [
+    "layer_id",
+    "valid_token_count",
+    "assignment_counts"
+  ],
+  "additionalProperties": false
+}

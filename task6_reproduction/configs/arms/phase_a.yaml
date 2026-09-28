@@ -1,0 +1,19 @@
+routing:
+  l2_epsilon: 1.0e-12
+  rms_epsilon: 1.0e-6
+  temperature: 1.0
+  orthogonal_gain: 1.0
+  bias_update_rate: 0.001
+  tie_break: score_desc_expert_id_asc
+  centroid_refresh: never
+  hard_gradient_estimator: coefficient_st_soft_backward
+
+variants:
+  - {arm: R2, name: default}
+  - {arm: R2-soft, name: default}
+  - {arm: R4o, name: default}
+  - {arm: R4d, name: default}
+  - {arm: R4o-hard, name: default}
+  - {arm: G1, name: default}
+  - {arm: G2, name: aux_0.001, aux_weight: 0.001}
+  - {arm: G4, name: default}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A: validation sample prediction",
+  "type": "object",
+  "properties": {
+    "sample_id": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "prediction": {
+      "type": "string"
+    },
+    "prediction_right": {
+      "type": "boolean"
+    },
+    "prediction_valid": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "sample_id",
+    "prediction",
+    "prediction_right",
+    "prediction_valid"
+  ],
+  "additionalProperties": false
+}

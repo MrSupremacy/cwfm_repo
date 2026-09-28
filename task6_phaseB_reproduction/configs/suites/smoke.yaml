@@ -1,0 +1,26 @@
+extends: [phase_b_f0.yaml]
+
+suite:
+  name: smoke
+  tasks: [sst2]
+  experts: [128]
+  budgets:
+    128: [13]
+  seeds: [0]
+  train_limit: 8
+  validation_limit: 8
+
+data:
+  preprocess_workers: 1
+  loader_workers: 0
+  pin_memory: false
+
+training:
+  epochs: 1
+  batch_size: 2
+
+capture:
+  generation_batch_size: 2
+  teacher_batch_size: 2
+  probe_batch_size: 2
+  shard_rows: 32

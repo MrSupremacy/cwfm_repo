@@ -1,0 +1,6 @@
+# Copy to formal.yaml on the experiment server and set a large output directory.
+extends: [server.yaml]
+
+execution:
+  device: cuda:0
+  output_root: /SET_ME/task5_formal_outputs

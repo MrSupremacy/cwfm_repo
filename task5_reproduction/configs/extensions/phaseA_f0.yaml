@@ -1,0 +1,11 @@
+# Server-local paths remain in configs/local/formal.yaml, never in raw records.
+extends: [../local/formal.yaml]
+extension:
+  arms: [R2-soft, R4-hard]
+  base_run_id: formal20260830a
+  base_protocol: 3c0cf5cf10058f95a028ff7a81b3b4301fc1b0593fc0e81d19852436467e6173
+  # Completed v3 normalized report, including R4-R2Init; read-only dependency.
+  source_report:
+    protocol: 8365fabd0c8ef7183b5f8a062710305dfbb368ffeacc319362b683575200c827
+    analysis: e8beebd9b8180f715bba114757240c2a3c47e1bcc3459da68732dfd70696473f
+    sha256: a25f8c83d467a25377b952aa382c7c8bdf54de73a162366fa3aa77dfac55bcbc

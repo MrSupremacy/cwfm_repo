@@ -1,0 +1,57 @@
+protocol:
+  phase: task8_p01
+  source_phase: task6_phaseD_F0
+  source_run_id: routed02
+  checkpoint_roles: [init, best]
+  tasks: [sst2, mnli, qnli, qqp]
+  experts: [64, 128, 256]
+  budgets:
+    64: [6, 10, 13]
+    128: [13, 19, 26]
+    256: [26, 38, 51]
+  seeds: [0, 1, 2]
+  modes: [M00, M01, M10, M11]
+
+routing:
+  l2_epsilon: 1.0e-12
+  rms_epsilon: 1.0e-6
+  temperature: 1.0
+  tie_break: score_desc_expert_id_asc
+  weight_scale: k
+
+diagnostic:
+  name: diagnostic_128
+  count_per_task: 128
+  seed: 0
+  selection: PCG64_proportional_stratified_largest_remainder
+
+evaluation:
+  candidate_batch_size: 64
+  teacher_batch_size: 128
+  candidate_append_eos: true
+  candidate_length_normalized: true
+  candidate_tie_break: lower_label_id
+  store_candidate_scores: true
+
+reporting:
+  seed_ddof: 1
+  png_dpi: 300
+  task_order: [sst2, mnli, qnli, qqp]
+  mode_order: [M00, M01, M10, M11]
+
+execution:
+  device: cuda:0
+  deterministic: true
+  output_root: outputs
+  tmp_root: tmp
+  task6_repo: ../task6_phaseD_reproduction
+  task6_suite: configs/suites/phase_d_f0.yaml
+  task6_local: configs/local/server.yaml
+
+assets:
+  dense_best: inputs/dense_best
+  datasets: inputs/data
+  expert_splits: inputs/expert_splits
+  r4d_init_root: inputs/r4d_init
+  r4d_best_root: inputs/r4d_best
+  r4d_catalog: inputs/r4d_catalog.json

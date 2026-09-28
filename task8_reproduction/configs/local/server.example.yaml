@@ -1,0 +1,15 @@
+execution:
+  device: cuda:0
+  output_root: /mnt/luoyulin_ckpt/fanxuankai/task8_p01
+  tmp_root: /mnt/luoyulin_code/fanxuankai/task8_reproduction/tmp
+  task6_repo: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction
+  task6_suite: configs/suites/phase_d_f0.yaml
+  task6_local: configs/local/server.yaml
+
+assets:
+  dense_best: /mnt/luoyulin_code/fanxuankai/task8_reproduction/inputs/dense_best
+  datasets: /mnt/luoyulin_code/fanxuankai/task8_reproduction/inputs/data
+  expert_splits: /mnt/luoyulin_code/fanxuankai/task8_reproduction/inputs/expert_splits
+  r4d_init_root: /mnt/luoyulin_code/fanxuankai/task8_reproduction/inputs/r4d_init
+  r4d_best_root: /mnt/luoyulin_code/fanxuankai/task8_reproduction/inputs/r4d_best
+  r4d_catalog: /mnt/luoyulin_code/fanxuankai/task8_reproduction/inputs/r4d_catalog.json

@@ -1,0 +1,3174 @@
+{
+  "date": "2026-09-28",
+  "source": "remote working trees (not Git history)",
+  "files": [
+    {
+      "path": "task5_reproduction/RUNBOOK.md",
+      "size": 20823,
+      "sha256": "fec160748b779e4765bcae0238662c6e0851286c6f25e3abe541f139994e0896",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/.gitattributes",
+      "size": 38,
+      "sha256": "a10e5d61092b82f8fedbfffa5c59da6eebbbce7299a02714e2d415d024fdb8d3",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/README.md",
+      "size": 3491,
+      "sha256": "cfab5a9dbac5592ce27d3d4b1d7bec93bbc11d24b743e2ff3dec4444579dee0c",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/pyproject.toml",
+      "size": 616,
+      "sha256": "6fb3647ab08789065117ebdf13b9c39dbc5afb493a5b3d70bd9eeab5db41d657",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/.gitignore",
+      "size": 403,
+      "sha256": "a7b908e9293702679f243e692dfe815daf1f945677a3d54b590938ae4d95295b",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/__init__.py",
+      "size": 21,
+      "sha256": "24134320b6b817b025abcad3a072eb08062f65623809659ff63acad18dc4a2c4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/fixtures/tiny_model.py",
+      "size": 1889,
+      "sha256": "47aa49dbe6709d8a3e257f265f0b98ffb6b997fe0ab072dd10ed7992ac2df164",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/fixtures/__init__.py",
+      "size": 21,
+      "sha256": "24134320b6b817b025abcad3a072eb08062f65623809659ff63acad18dc4a2c4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/fixtures/offline.py",
+      "size": 4814,
+      "sha256": "881ba62d9135a770dce7828a0732091a2b5bfa30f52a63a62177f279c5a3db74",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/regression/test_r3_rms.py",
+      "size": 1124,
+      "sha256": "35318afb0b44e7e8c55195580935922fda615ae3749f687bb185bd470c76100c",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/regression/__init__.py",
+      "size": 21,
+      "sha256": "24134320b6b817b025abcad3a072eb08062f65623809659ff63acad18dc4a2c4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/integration/__init__.py",
+      "size": 21,
+      "sha256": "24134320b6b817b025abcad3a072eb08062f65623809659ff63acad18dc4a2c4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/integration/test_preprocessing.py",
+      "size": 2905,
+      "sha256": "becd0d71741eb5ce9fd6319b00477fe664564ebbb3eaff2c7a728a6b248b4529",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/integration/test_tiny_t5.py",
+      "size": 8451,
+      "sha256": "1b08542ec2b1e006a2a902240ef73c99e3ba50ebe32ea5269999f13864b28767",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/smoke/__init__.py",
+      "size": 21,
+      "sha256": "24134320b6b817b025abcad3a072eb08062f65623809659ff63acad18dc4a2c4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/smoke/test_phase_a_report.py",
+      "size": 3614,
+      "sha256": "35d931472d38a9d19a2de739c72c752b9cbb7ef409e0e42dc8532e085ad080c6",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/smoke/test_offline_pipeline.py",
+      "size": 4108,
+      "sha256": "fe32c41882fe871b8a0323c066041199a9dfa70023d1d53c1d8fa619be03c1e0",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/test_phase_a.py",
+      "size": 2545,
+      "sha256": "380e96f94eb00361fc5f7476eb52b482fb4df00dfeed1deac48d5e15d76983f6",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/test_logging.py",
+      "size": 5188,
+      "sha256": "00abe31ff5736c5182f3e87d11082a34f011da9245cab736bb272dc04b5d325d",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/test_routers.py",
+      "size": 7695,
+      "sha256": "dd588989b8b6b197021ecb9ec00b4e9b9ee5cb8f3bf5fe2feea20b16f4be64dd",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/test_metrics.py",
+      "size": 6650,
+      "sha256": "da29552c42f512caebed42423dee06ca0c6bf3c33b3e977e3392459fc35aa4fa",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/test_config_data.py",
+      "size": 11147,
+      "sha256": "f5e8da2e3689a510802d3181948baf1b37cfe38df1c4ee6ee239f37a81b5b199",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/test_shell_entrypoints.py",
+      "size": 2195,
+      "sha256": "8be0ca0e90592786c817f081ce3a4db8d037d78e308ccacc5d47d5d8569e0cce",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/__init__.py",
+      "size": 21,
+      "sha256": "24134320b6b817b025abcad3a072eb08062f65623809659ff63acad18dc4a2c4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/tests/unit/test_io.py",
+      "size": 4250,
+      "sha256": "681769e6e7ba11d462af2faec3a21e8f6b7e4e575c7c12fbdd883e6a78f343af",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/docs/protocols/inputs.md",
+      "size": 2740,
+      "sha256": "df2d0fa664f290c7d158fdc691d31adfb593d4319f81b62adad59c7ca541e701",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/docs/protocols/metrics.md",
+      "size": 2847,
+      "sha256": "f578fde2bfa18024acc803ceec08f810b289d2a64624850df0b24ca190497c03",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/docs/design/architecture.md",
+      "size": 4148,
+      "sha256": "ef94babe42b10dabc8e012512b55fc7e669c196108b6360902129842de84d419",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/docs/runbooks/server.md",
+      "size": 462,
+      "sha256": "690800388c5de014ee75c94fe1b49da2df4dcb868520a3b19d8e9fc1baf5df69",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/docs/decisions/current.md",
+      "size": 4234,
+      "sha256": "9e77e6b283fc994722961d94817ca64b2a064e64735d4d6871576e88ddb3eeb4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/metrics/default.yaml",
+      "size": 230,
+      "sha256": "a3f069b073f841a7d9e51a8b67251f515c76e78b9a99dd25393df3e04692028b",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/arms/variants.yaml",
+      "size": 958,
+      "sha256": "adacdda327d85c1230a9d5fc8ab7d829e0fc0448d96b6dda3ddc02dd20f462e5",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/suites/phaseA_f0.yaml",
+      "size": 592,
+      "sha256": "13a5911e48352f2bfbd12e206048e607449da5ceca159748cba08b7f2801e3a4",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/suites/smoke.yaml",
+      "size": 149,
+      "sha256": "9387c4a35b460b3b60f5bc0295b9063eac68bfe1272730333613e26b5ba90744",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/suites/main.yaml",
+      "size": 253,
+      "sha256": "b9705a05cc9a126f96be016c32f229c4ec9430d2c83400ac56ff7fe7d6df3b71",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/local/formal.yaml",
+      "size": 264,
+      "sha256": "fa59c9d28c6052154cb0070a63eede5e9be0093c63e9615011ed89f8cc4de1c3",
+      "mode": "0o666"
+    },
+    {
+      "path": "task5_reproduction/configs/local/server-tested.txt",
+      "size": 538,
+      "sha256": "efef21540f5c2f1246b82b600d01d6caf5842530d2c043b380474d3ea806eca9",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/local/server.yaml",
+      "size": 548,
+      "sha256": "71b8376c0eebae4a5f359527f75b0214b26ed6dedc758c72ff313a04612abdac",
+      "mode": "0o666"
+    },
+    {
+      "path": "task5_reproduction/configs/local/formal_r4_r2init.yaml",
+      "size": 302,
+      "sha256": "27b589a7c9c9a84a2cee433f1134ecc0cc427688b39f48b523a1bc190f28409a",
+      "mode": "0o666"
+    },
+    {
+      "path": "task5_reproduction/configs/local/example.yaml",
+      "size": 743,
+      "sha256": "62fde65361059d65d04f54fd5df000c29f5fd03d79e54458e4044fd9a913d984",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/local/formal.example.yaml",
+      "size": 177,
+      "sha256": "0901054d91ba17e4087038846c4a01167b55a99bddb3c34b14c778ea4a9c427d",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/base/default.yaml",
+      "size": 811,
+      "sha256": "80d1793a2350f2e95790f8d138a27356ed471dd33a940b737f7c9b84983d5c9e",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/extensions/phaseA_f0.yaml",
+      "size": 594,
+      "sha256": "6883db1b878de3d0e378eb9466de77204869d558e2123c1585c2451e6d04cb2c",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/capture/default.yaml",
+      "size": 319,
+      "sha256": "d6b863bd4f59500371ae26cfbfce7950d4ae19d8c715f1df70e6f8a1d0647089",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/configs/training/router.yaml",
+      "size": 365,
+      "sha256": "31677094a7681b97b439976645dc8f306f08d7bae11c6ae83c13b47a6237738f",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/docker/aihc/requirements-task5.txt",
+      "size": 185,
+      "sha256": "17a9acdda35a6bd4a555c880a0f19ac035d7cda7275f6f11c59a86a6054b3f50",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/docker/aihc/Dockerfile",
+      "size": 883,
+      "sha256": "e2c9f4f9b30ef86caf15b7215443bfefcd41e3f9405f9d90f23e28fd8f32b837",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/README.md",
+      "size": 667,
+      "sha256": "68bb07887089bc3c72cd0458feb5b0996ba5de6e06af81b4316f572e4d7f95da",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/captures/E.schema.json",
+      "size": 671,
+      "sha256": "c53d85c4719f3dc4b3fa899aef8c6dcd4577cee39d245738b602e01f686e0294",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/captures/A.schema.json",
+      "size": 549,
+      "sha256": "3958a8147c8d51876ce24c6565142dc6101bc198109bab85e022d737127d35ca",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/captures/C_D.schema.json",
+      "size": 985,
+      "sha256": "badfb0b84b2ca1b4602521d84210e03da98d4b8dda96b9dbeef3d251ee37ba17",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/captures/B.schema.json",
+      "size": 658,
+      "sha256": "fbbe78a60aefa5e4ed19e4da5a22542a0e740fcf32fa012d52b679771a82dcb7",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/metrics/condition.schema.json",
+      "size": 906,
+      "sha256": "c4726fdf1d5c3dc2559a938e392e3254560f86178589087d942996984a3f3a0c",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/results/records.schema.json",
+      "size": 504,
+      "sha256": "a5b2499eb379fd6a764c52f6281fe92fddad79053c5224b943427af5cb4c4dcd",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/schemas/manifests/artifact.schema.json",
+      "size": 443,
+      "sha256": "529c6f7069143a131ea644a7d513209ceaaab46424d9cf8aab0ad77c71f8b27e",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/_python.sh",
+      "size": 324,
+      "sha256": "86c42fc9a1c8b2aab98297aee96d85942e515ef7dc18ae515683cf07471628ad",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/run.sh",
+      "size": 152,
+      "sha256": "88dc2db3b2c3253255dcfebb93ad00732959b441aac705d7d58d1cbbac391f93",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/test_local.py",
+      "size": 1917,
+      "sha256": "7b70cfa68bf41fcb228f7517d4adae49a84bafa972647669f89e75f95c670bdd",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/check_phaseA_f0.py",
+      "size": 6053,
+      "sha256": "abbd2b7693bd4d097be21ea0ba08a5e75ee4f32fcceac35845718692fea01165",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/check_resume.sh",
+      "size": 176,
+      "sha256": "89a840aafef66151893c137ea30a2cd61c6678b92eede3fbc53e39f997ac07ce",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/run.sh",
+      "size": 151,
+      "sha256": "d16177053414d1e5da00d7fe9277e3396c6a0f2ed9d4340c528abded32403dc4",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/audit_smoke.py",
+      "size": 6049,
+      "sha256": "69efc78d1ed49174767e67431606e728a5cd2b9fd0f1d2faf8b0de39caa4a5cf",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/audit_smoke.sh",
+      "size": 175,
+      "sha256": "2c7e030ef57d809578fd7b3a9ed282714ebfd9f0ca7be8abaa0a2d58e43ee4a6",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/check_resume.py",
+      "size": 4360,
+      "sha256": "bc08cd92a10769528256792d7376b0901bce9aed0eef234144438ba51b06c9e7",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/20_validate/test_local.sh",
+      "size": 174,
+      "sha256": "a29a278c82a22d05b37a51755c0ca9c864ddfb9cb44fbb16e49569b616bd885e",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/50_metrics/run.sh",
+      "size": 150,
+      "sha256": "8f941a7a6aad8ec81e542e8f863354307bdafd41e814afd40bd77c45ca09e1df",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/00_preflight/run.sh",
+      "size": 152,
+      "sha256": "e0756d3dba48adccf24c7d9cb0ba59767503774a6e727d2bef94123528728fd5",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/80_figures/run.sh",
+      "size": 150,
+      "sha256": "13d3590d9cbe07c35e3157fce69956cef9d5f0d8304a40db7269ca0032ec47f9",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/10_prepare/run.sh",
+      "size": 150,
+      "sha256": "71cfdaefb7ccc40c1a32243cbe0517e6904e1e776bd85f3f6550fff6646dc974",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/10_prepare/import_task4_assets.py",
+      "size": 6292,
+      "sha256": "52679d83bd4076cecb6f9d4faa2df7d27cc6c430d55b8fc41157875f89c1ebab",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/10_prepare/import_task4_assets.sh",
+      "size": 183,
+      "sha256": "21604aadd380bf33d54086a1225b6c600c78c34ccb3956582f7dd280c10eb93e",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/70_tables/run.sh",
+      "size": 149,
+      "sha256": "26cc0ece3c2c1dd793df8f3e56abcf93449dab7515fda5f42eb811d6d70acf5d",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/90_formal/resume_single_node_8gpu.sh",
+      "size": 8681,
+      "sha256": "321c3992e67858cb2eaf8bbcf48dfede9847eb47c43e1c5d3f77c6e2f85f8131",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/90_formal/extend_r4_r2init.sh",
+      "size": 6538,
+      "sha256": "d49f45f464c9605994e625d8e340f1873a124f99fb8cf66361283ec14f14d457",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/90_formal/extend_phaseA_f0.sh",
+      "size": 3430,
+      "sha256": "58594e1d85a87e3eaa6199cea9e9e40ee29f0acd4dbb0704766b6234878e618c",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/90_formal/recovery_plan.py",
+      "size": 4930,
+      "sha256": "f0d3fe540399a0ad3c8b3132c8c0f0e6a161b7d5c316da7e8fe6e8254b0add47",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/scripts/90_formal/finalize_cpu.sh",
+      "size": 4602,
+      "sha256": "a65a2911f9392f3c0e52d24cf7d52f0b1261ab07926830e943070fab9d668b86",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/90_formal/run_single_node_8gpu.sh",
+      "size": 5772,
+      "sha256": "55808c5336aaa2d51fb10186564cd8c0adb99c8af0e1079a5ea5e47ffa51a51a",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/60_aggregate/run.sh",
+      "size": 152,
+      "sha256": "a8b98b3958957db9a2ee656f34cb3e9714a15019840db1d8d8a4ce7f606f68f3",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/30_train/run.sh",
+      "size": 148,
+      "sha256": "8bac324cc6a17f4db6cd3d43b94de684a8a596b102b5be064505945d31a4a422",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/scripts/40_capture/run.sh",
+      "size": 150,
+      "sha256": "810a0a9ffa8af615e6544f26802682d754fab7966fb8e72265013ba981480235",
+      "mode": "0o775"
+    },
+    {
+      "path": "task5_reproduction/src/task5/cli.py",
+      "size": 9206,
+      "sha256": "bf1788790f8ab904362f3ac55eda853fbdad0c74b6403134acbe21204853dce2",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/__init__.py",
+      "size": 101,
+      "sha256": "681e7d726984198154e87c0372b4cd02fe62a180f3f0e4e95f2345a30fee4103",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/__main__.py",
+      "size": 38,
+      "sha256": "8479c0262ae7b71f18a0139316d618bc071b668cf6d6ea29c206dcab19181f51",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/substrate/model.py",
+      "size": 7650,
+      "sha256": "5d3fa1c50c4352d02a6da2d8b8d52284ef0f7bced3437262aa48a359cfae8462",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/substrate/validation.py",
+      "size": 5259,
+      "sha256": "f96bce134e176a374f1c29b75bbb29ddb90d339077c030638f132118629367aa",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/substrate/__init__.py",
+      "size": 36,
+      "sha256": "971733ae5289e5643b872fe076244c66f5206c5cdb11aa56c6d3c26663157b53",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/substrate/assets.py",
+      "size": 3870,
+      "sha256": "dbc9e553a6a95d0cb6913d5c9b0851a194d33736c4c66e039dde58304408bafc",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/aggregation/pipeline.py",
+      "size": 9543,
+      "sha256": "5ad9a4f5e641450afc1c1b8d639154ace2c10cb7693ec8e2c3b541ef5a9b922d",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/aggregation/phase_a.py",
+      "size": 8870,
+      "sha256": "b1e41cb6cc983a100648594645e182052647f95535bc84869fd097e3fef35318",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/aggregation/__init__.py",
+      "size": 38,
+      "sha256": "ec0a1fa0b11d292e375e909ef5ae4f4ed0cdab4de6d87174893f905d54692226",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/aggregation/core.py",
+      "size": 1215,
+      "sha256": "b38be5119b7d2a12acad3059d57bcc87ef327524c01b7d1ecb8dc3c940762d9a",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/pipeline.py",
+      "size": 12647,
+      "sha256": "213ffbc57c8c62f584572075af9ef496fcae790eb6cf0802586efdb3773f80e9",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/__init__.py",
+      "size": 34,
+      "sha256": "17cb31e0961ba2c42cc78e7d403c26b49be00efc0f08be54b5b8bec24571a247",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/stability/__init__.py",
+      "size": 44,
+      "sha256": "61e0c79fcfc2cb6b851d95534ed7d68d33e2e0b4522e059e7f47ad1b9b9cf4cf",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/stability/core.py",
+      "size": 434,
+      "sha256": "d2fae6382df733321dcbcf1cccd855697772b1fa2df475b38b8c0b5e7b534164",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/load_balance/__init__.py",
+      "size": 47,
+      "sha256": "e5e6846cd9e8ec3b8ea52410e01480738be65e46416798f66a608d229b45b63e",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/load_balance/core.py",
+      "size": 700,
+      "sha256": "f3b0af56bff037d87728237360813752cbbc53eaf140786f3d2fd75ccb203683",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/selection_quality/__init__.py",
+      "size": 52,
+      "sha256": "8a3a4e8f0c5053607831ceb197641fd6b01aa89394031d41e9a4a2a9f184155d",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/selection_quality/core.py",
+      "size": 3480,
+      "sha256": "b0062bb0011c1694c595ac7571640f6fbce087bf78e071948d58ce50328fb23d",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/performance/pipeline.py",
+      "size": 3098,
+      "sha256": "ea569fe18aa377bc63c0ade23dae51372d094818fe23ba2af9468dae87b5ac81",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/performance/__init__.py",
+      "size": 46,
+      "sha256": "9ef98ffcd6d2c821acc7fbf65b6996c987469b27d95395c0a5f3bf2579f5357e",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/metrics/performance/core.py",
+      "size": 1350,
+      "sha256": "df208830aa66b9598882b7a00f558a8214bc3f64bbe422eee1236088312a23d0",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/routing/__init__.py",
+      "size": 34,
+      "sha256": "885f30cfa3bb4d5049908b48ff72185bf863a8f5f5e027984b594f5651ad5720",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/routing/routers.py",
+      "size": 7026,
+      "sha256": "90d9d11bec33f51e3611e45545c907cd06f0cc9920db33bdfaca9aae9a6c29f7",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/visualization/render.py",
+      "size": 10242,
+      "sha256": "ea03d6a3d0167a685b04af044cfaaa0396dc38dfd7367f9461279b8a6547e5b0",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/visualization/__init__.py",
+      "size": 40,
+      "sha256": "a20110448c9f82d87f8db33e5aab795612be943c11b210f42ddc9ebac859c17e",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/data/__init__.py",
+      "size": 31,
+      "sha256": "d3de6b0748bd6fae026859f913008b931e4a0495292f9033a94e2a2ca0a307a3",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/data/datasets.py",
+      "size": 8860,
+      "sha256": "d9a65203426e49932ab5c82e924e42bba2db29181cae7c3a75d72388494994a2",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/capture/__init__.py",
+      "size": 34,
+      "sha256": "1d5c3a8efe0e2bdc6f9fb399d578a1dd7ab022dd1709977761f5422655f06c6b",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/capture/storage.py",
+      "size": 5227,
+      "sha256": "02989e6f60b5c57fa589fd9e2dd8b0bee0a5867120bc85d834f252ae8c3cc15c",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/capture/runner.py",
+      "size": 10011,
+      "sha256": "063f0e858b2c082ed10ec81f8aded6572b5c3110dc0fe0c66362d85a69cd53ca",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/training/schedule.py",
+      "size": 344,
+      "sha256": "728e86bee6d787de48837dbf2f3cfeb07b86b54a4d7972b6b32f1abe9b6faf29",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/training/__init__.py",
+      "size": 35,
+      "sha256": "8bfe4f6f394820d6d5a126079cc6655390090f11256713e93b78073645a1d54d",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/training/checkpoints.py",
+      "size": 3852,
+      "sha256": "ba312235b4787c1d2aad86c3dbb5f8f605b0e0dbe257494644c695594716ac23",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/training/runner.py",
+      "size": 5877,
+      "sha256": "1e45fbf1ab15330f18f1d3073f5be667357d8b459fab4c72605dd3960cf0d67a",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/common/io.py",
+      "size": 3756,
+      "sha256": "6e025a01255c20fe170a970a34516f505d597d6e607b235f559d810c17596532",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/common/randomness.py",
+      "size": 1741,
+      "sha256": "0afe0f0ea1f4bb7eb9a1867212445303fbb658c765fcaed7d0ecec9baad1ab1a",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/common/__init__.py",
+      "size": 33,
+      "sha256": "bc7c15b2bc3126acc3caaecd60e285af43e6a5ac8c0cb35026a31352a8695f1d",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/common/context.py",
+      "size": 7350,
+      "sha256": "6810347c02caaf8b3749423aede12fc49de40e15be647b2836fc3fcc105cd779",
+      "mode": "0o664"
+    },
+    {
+      "path": "task5_reproduction/src/task5/common/config.py",
+      "size": 10947,
+      "sha256": "820aa068e4697f1fc1984af3f478b7afcb17b6d3f140c17c80527c34273aadfe",
+      "mode": "0o664"
+    },
+    {
+      "path": "task6_reproduction/RUNBOOK.md",
+      "size": 6086,
+      "sha256": "ba75273fb711c4b441e1e8fd365fbc5a45dc908f1182d3be7ef3ec485024ca0f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/.gitattributes",
+      "size": 36,
+      "sha256": "65c5597804d31d2c6c9620de370e65beb77be3c4bb306420135b5823796ba0d4",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/README.md",
+      "size": 1212,
+      "sha256": "c6d915a6d1bfe841b5a6d8961b798358666a6affb81b61311abc1e443a48cfc3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/pyproject.toml",
+      "size": 566,
+      "sha256": "f2de8fa3289f8aa6be9e0c020547211dc06c8cb956a19211598d6d0ed7b22997",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/.gitignore",
+      "size": 372,
+      "sha256": "c09422da59140faea63ecf3e570a209293c3838c3d0641277ea8e25b29b45ed5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/fixtures/tiny_model.py",
+      "size": 1692,
+      "sha256": "11ee9fdcd7cabe86a39cda9bdcfca2b69d1319df9620f1f6ba52902178df81e8",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/fixtures/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/regression/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/integration/test_fullft_tiny_t5.py",
+      "size": 4004,
+      "sha256": "2247bbdd7a394e4baeb4dd90eddc184df9fb7a894132d2288fc4e10cb7b78c97",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/integration/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/smoke/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/unit/test_routers.py",
+      "size": 3379,
+      "sha256": "fc3015560fb7e77a246f24ee6ec8514c452dea2e009b4b8aae8c268f8545f0f9",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/unit/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/tests/unit/test_config_and_metrics.py",
+      "size": 3785,
+      "sha256": "9970734effcaa2f34cdfd48fab8b26443992d02f310ea344f8d821e89d44a78f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/docs/protocols/metrics.md",
+      "size": 1193,
+      "sha256": "d564b9c10a915ca116d81faf6d3578d387e4aaf751a714875df39aec3e3d2b21",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/docs/protocols/checkpoints.md",
+      "size": 623,
+      "sha256": "f2edd8ededaa1441a3f541112f74f2dfda399fcd2f3220273ea1c43f21bfa242",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/docs/design/architecture.md",
+      "size": 1376,
+      "sha256": "b1692e9edaf501caeb989accc05b31b540b5e1d096e7fbc169f59f190ccb04ad",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/docs/runbooks/server.md",
+      "size": 158,
+      "sha256": "5f9731e7e010eaa169a077688be08cb3b69e0a64ca6d2d706b54fef79cee5986",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/docs/decisions/current.md",
+      "size": 1277,
+      "sha256": "0b28bff056ef33112a6cfccff7e2568e4d89406a26db5dcc3e6008f9ffec34ed",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/metrics/phase_a.yaml",
+      "size": 178,
+      "sha256": "cfbcde3eb90f1b589cb2361fa5b28dcde0fa861d06783e24843798806e8ff17e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/arms/phase_a.yaml",
+      "size": 518,
+      "sha256": "744ff0b5a4aa7abc1bf75114781aaa8a7240e63f9392366f2d1fa4f9ffe72501",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/suites/smoke.yaml",
+      "size": 155,
+      "sha256": "552b60bb7e9fce49432509e7b5fbfcd01700212cb00dab9c4be53ffc0b38369e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/suites/phase_a_f1.yaml",
+      "size": 329,
+      "sha256": "3366efd59d4761994599a28dea0ad6fdeb45df372b3dd6e289d3279a783c0bf1",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/local/server-tested.txt",
+      "size": 525,
+      "sha256": "1497b9b578df900f81c590666c2b303bd049498ca63c74018293c3a18b1d67cf",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/local/server.yaml",
+      "size": 918,
+      "sha256": "30bace46f7dc76a765b1300f244d4a828783ff63515d65873a910793608baad3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/local/server.smoke.yaml",
+      "size": 924,
+      "sha256": "7e96236d069bf9b0e9c131f2a3c5a038c0baab7bf56559cb75d19cce431d5a74",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/local/example.yaml",
+      "size": 703,
+      "sha256": "f0be7e27600e75c07d2f746c1b12ae7ba9066f7f6c43d8cafd307a8c089db670",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/local/server.example.yaml",
+      "size": 918,
+      "sha256": "30bace46f7dc76a765b1300f244d4a828783ff63515d65873a910793608baad3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/local/local.yaml",
+      "size": 730,
+      "sha256": "ff586595a3dcca6158e0d500066ebeb615f34977afe769ed7d6c4c2d739e71aa",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/comparison/task5_f0.example.yaml",
+      "size": 232,
+      "sha256": "b85a17634ff9b8d4b5b01dd7b07cb1394168c74e2da8e9fda3fd668de9eaff2b",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/base/default.yaml",
+      "size": 811,
+      "sha256": "80d1793a2350f2e95790f8d138a27356ed471dd33a940b737f7c9b84983d5c9e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/capture/phase_a.yaml",
+      "size": 282,
+      "sha256": "b50d3a65e1725e074d6126be2f461f3e8dd33dad633cdb290b5008e4ff96940e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/configs/training/fullft.yaml",
+      "size": 478,
+      "sha256": "75cfaf1866a77239767b10334f901f67b433f77767e36b2fbc64d604cc026dbe",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/docker/aihc/requirements-task6.txt",
+      "size": 175,
+      "sha256": "1f75e12861de07c121b44d03446ff54fd4c755b7ada3208c4a1522fcf8ee67f0",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/docker/aihc/Dockerfile",
+      "size": 878,
+      "sha256": "44a14131d125f038137ecfec3ad57f21c25a39acd55d67d2c0738b609ab6730c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/schemas/README.md",
+      "size": 324,
+      "sha256": "c0f7955bb450381efef4acfe8ac45b5f4e6de34737cd837a2062e266c4d8de83",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/scripts/_python.sh",
+      "size": 393,
+      "sha256": "c71f0452e74805398fa2a7de920f448a3f068957352fbb087abcffa67b232169",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/run.sh",
+      "size": 145,
+      "sha256": "dccb80d676bf8b2bbcfd33821f900520f9ebb71d8236935c33f54213d12ebd56",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/20_validate/check_checkpoint.py",
+      "size": 3503,
+      "sha256": "35e7e2db1f471396c50d94b8e6c730d9ad849c09d6102693a89a5dc43a67d2fd",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/scripts/20_validate/run.sh",
+      "size": 211,
+      "sha256": "c2ea29b3825bc57d3c3fbc6a82cc3d304967ca8d3a2d6a9363ebc04692d99d71",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/20_validate/check_fullft.py",
+      "size": 393,
+      "sha256": "8407c502cc9d6d460699cc835ece0dcc2d19c39c5adbd3c13d55dadfc70a8908",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/scripts/20_validate/test_local.sh",
+      "size": 164,
+      "sha256": "b15f7ff68fffd90bd97111fdb7cbde194564b10e3d44e854dfe63f0614c0e28e",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/65_compare_f0/run.sh",
+      "size": 289,
+      "sha256": "6034a1036c564ec896d6d76946fb138dd27d82baad1532c53fcb8253b904cc9d",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/50_metrics/run.sh",
+      "size": 210,
+      "sha256": "bb4e8f007bdb81df2ccc98a26214db39d9b4ca30ca70f880bd4767752d2a023c",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/00_preflight/run.sh",
+      "size": 350,
+      "sha256": "5a6c04df0b1fcd7700fcef8f30174b6180d7e318fb341003df9618194a206f84",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/80_figures/run.sh",
+      "size": 201,
+      "sha256": "df0fed8042a344ff9e150a1ac4adf5233a5258a8d30286a953dd60b70d654411",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/10_prepare/run.sh",
+      "size": 210,
+      "sha256": "22bf1dee2a659b0556ae38ec617a7e61b86b4975f456334466cd10e27b390903",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/70_tables/run.sh",
+      "size": 200,
+      "sha256": "8dde32928e0af927a0989dc7c17f14a0c87b5fbaaa11da8ee65fd332f6157985",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/90_formal/run_all_8gpu.sh",
+      "size": 3531,
+      "sha256": "dca55f68e4e0a46c9f3c3f395feaf5c9bd74ae3884bd30185a620a21ed9643e8",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/90_formal/finalize_cpu.sh",
+      "size": 298,
+      "sha256": "8e36a44c725c4079631b55a21e2ea175a15c139898a53266e7b7d906af3839dd",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/90_formal/run_single_node.sh",
+      "size": 661,
+      "sha256": "085b69793171953edf28eb1fa965a6e7c532f348742e7de62169f7edac4b95c7",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/90_formal/run_single_node_8gpu.sh",
+      "size": 154,
+      "sha256": "af106c9ec7e3f7caaee615613cbb7169b48d66c49c572ecb099f5a3a58904bb6",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/90_formal/run_dense_fullft_extension_8gpu.sh",
+      "size": 2694,
+      "sha256": "a56b35617f9088d5f7dac2e8c8e5c1a78e1e99795a03e2ca30ea9feebec3887f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/scripts/60_aggregate/run.sh",
+      "size": 203,
+      "sha256": "79b647e7ce6378c7b86c2df8af160fc60c9cca156a90b8b6abd44837a41cb425",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/30_train/run.sh",
+      "size": 208,
+      "sha256": "17c9589d6079345eb35a3a6158e702ecf5b853cfe23c97226ed1779562fe6d7d",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/scripts/40_capture/run.sh",
+      "size": 210,
+      "sha256": "6375bc7d6658873596b9e5f4c760a069e23b124e52565cce21f2972b8563a147",
+      "mode": "0o755"
+    },
+    {
+      "path": "task6_reproduction/src/task6/cli.py",
+      "size": 8185,
+      "sha256": "05ae8b7ec5245c36f40003273aef680cb77abe60d3cabda136e0c40a00eb592c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/__init__.py",
+      "size": 98,
+      "sha256": "11e700bcae15f28321cc94a5e226aa6420cedddc0bee885a2dc7cf83fc0a560b",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/__main__.py",
+      "size": 35,
+      "sha256": "904984d4779ef349f9499a8a90122f5308008f72a217201157bf1cda4f94cb75",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/substrate/model.py",
+      "size": 6714,
+      "sha256": "921571357a8aa1fc5fe73a9be3722c42203cfadba6b41a317dc73ec55bf54198",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/substrate/validation.py",
+      "size": 4361,
+      "sha256": "2cf42b211cb31a96ebd30d2f31b68753fbff94c0971412b201ad6b0395b5b67d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/substrate/__init__.py",
+      "size": 35,
+      "sha256": "a385430feacb4bed81391d927d8602f5789b6ad0a71eae87b8ea723f12914e6a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/substrate/assets.py",
+      "size": 3792,
+      "sha256": "3c7f19428040ef04a9bc6416e26e6aae9255877c868030e7a7a9e93788696244",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/aggregation/pipeline.py",
+      "size": 6846,
+      "sha256": "b9e8a2af99ed957f403bf1b76ed1971f70d1b5252f2a5a1191d490b935f05a69",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/aggregation/phase_a.py",
+      "size": 4208,
+      "sha256": "9c0dd1333fdf2e0f7ce180f36a7bd34d3b01ceabb8be32893b342eb1070491c7",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/aggregation/__init__.py",
+      "size": 37,
+      "sha256": "8df3817e8d8da469b1bb269e588bb2e7f51d05cb106818a9aeb4b142e2d719f8",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/aggregation/core.py",
+      "size": 1189,
+      "sha256": "29bc19bb604c54fac324fd585d6b3dd05f0695f11500b3001401bfc582301ff5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/pipeline.py",
+      "size": 8563,
+      "sha256": "522707c709a924402a5f0619153be5bad775afd8014f3563588f5fc132d565a0",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/__init__.py",
+      "size": 33,
+      "sha256": "ef8c06b647a2b21093dba36b0d6a712037d2a3d901404f2de9d07405e1fbb7e2",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/stability/__init__.py",
+      "size": 43,
+      "sha256": "de86c57d3204cb747d21ebf94579db4255de43cf10a3b3cbce43992558be992d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/stability/core.py",
+      "size": 421,
+      "sha256": "678ce32c5a9221f14458eaf4b5cfb9c7f1381b6e5314e68a868e590dd807348a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/load_balance/__init__.py",
+      "size": 46,
+      "sha256": "b601ea294d95be850a8e347395dc9e48b4314bfecaa41e340b8e0dd35ed90bea",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/load_balance/core.py",
+      "size": 630,
+      "sha256": "e6b39fb21f641a050b39abe275ea69f612acfe0d31f936534eb6476522452058",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/selection_quality/__init__.py",
+      "size": 51,
+      "sha256": "e1c794de86b374ba116858c8329f4095dc1692fcfe454c51a1fe8030cb15b6a9",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/selection_quality/core.py",
+      "size": 989,
+      "sha256": "aa21dcf8ba45764378ac6bede606c050fe54f269069e2d16a1d9131dbedd3da8",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/performance/pipeline.py",
+      "size": 3117,
+      "sha256": "e53e9ed52b68c775182b9547286f2ff908b2c768facc2c7e0673345787a3915f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/performance/__init__.py",
+      "size": 45,
+      "sha256": "16e9ce78ccd4c85d11d3a1d1ba168ae90378a03058c005a390a27fda69b8e357",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/metrics/performance/core.py",
+      "size": 1325,
+      "sha256": "c9574eaff4a55f4c0c8d3fa9558b6906292abc701370a8c5c428ccb053067f8c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/routing/__init__.py",
+      "size": 33,
+      "sha256": "ea0ad60fe92faf3f5ec6c47e3b0000dd94d3f6a775cbaa27f93a1ede327e5683",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/routing/routers.py",
+      "size": 5223,
+      "sha256": "758d4155f21dd5dd1a20835a206f31660118f743f0d5ce27a6af7794920b8113",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/comparison/__init__.py",
+      "size": 51,
+      "sha256": "f2cf112f667b808acbced621073d378eb6f343135d2f4cd4ced0eb869259fd31",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/comparison/task5_f0.py",
+      "size": 4602,
+      "sha256": "9278d9dc56fb548e4fecd9bfcd771484704b597f3c77fac51b5ec9730dca283a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/comparison/dense_fullft.py",
+      "size": 5549,
+      "sha256": "42e9342d761e86a6618c2520064c340e6666f3fd5943e474f726cdbc291b10f3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/visualization/render.py",
+      "size": 10613,
+      "sha256": "b4fad51a35727fd2bf93fa56786f3c2a84a1203254d1ac126c35dd5d4d701f14",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/visualization/__init__.py",
+      "size": 39,
+      "sha256": "1a230f250a7c0f4675eae7e386bfc8c079daeceb9f4d39c7cff78c0d56fe02b8",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/data/__init__.py",
+      "size": 30,
+      "sha256": "2747e8258aa6d2ee52020610130ebd274e0f39388b58dac572c73c3b7ba00976",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/data/datasets.py",
+      "size": 8693,
+      "sha256": "0a9bd24555dc90b03ac768dd0c31a02d9a2fe76e794652063bf4d584e7a5a050",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/capture/__init__.py",
+      "size": 33,
+      "sha256": "043145142308cc26b1d7c3ddb9d1594e12fd364e562d7b82a21b9bd5b06a03b9",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/capture/storage.py",
+      "size": 5124,
+      "sha256": "050c9fc8f7b599c9ae8ea73425d1294b2e343fb4009d1529bb0793674589eee4",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/capture/runner.py",
+      "size": 7948,
+      "sha256": "d5a3f1308a21b28d960b13679e97482a60c2d221060dd8418d7357602d9e5303",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/training/schedule.py",
+      "size": 339,
+      "sha256": "5fbe3987a2c80196a70904aeba45955713b0a43c438ee783a70e3d4bfccc82f8",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/training/parameters.py",
+      "size": 2949,
+      "sha256": "8f0a77a4cd53fe84225565fffa27f2aa6b2856e84dea57303105b3c206abba1b",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/training/__init__.py",
+      "size": 34,
+      "sha256": "e80b71a90ee2ea721bddad17167f29962a73aafd9ca5c9a39a88b845a816d8c3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/training/checkpoints.py",
+      "size": 4413,
+      "sha256": "5a7f95760a22e77886abf7f073b0814031168939fba3ff1fc70bbfdb8cdfff81",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/training/runner.py",
+      "size": 8243,
+      "sha256": "1abd63e88f2584433e2e548f3b76186fe1d26901a89e54bd15c20b1150e93be6",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/common/io.py",
+      "size": 3636,
+      "sha256": "46351a43c7f45d34472b5ff906053a53099e677de4ced99e3acef4ee28173584",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/common/randomness.py",
+      "size": 1688,
+      "sha256": "6cbaa3a54e3788114cd81ba3bb18f34cc9877bd04add71e3091c051f04ab497a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/common/__init__.py",
+      "size": 32,
+      "sha256": "913651b8777b0f36d5d62d4b8b3fa0e899c649efcf125d460b0602e30200bfc1",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/common/context.py",
+      "size": 5230,
+      "sha256": "b4d0fe8b990f66ca0195d7ad55c6bd6ca73c70996ffd603c7fb92a87a36710ef",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_reproduction/src/task6/common/config.py",
+      "size": 10773,
+      "sha256": "bfaf0838e2a8914fd135951c6da8ace64c33dce9514767d482c12b1af8549cf9",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/RUNBOOK.md",
+      "size": 3787,
+      "sha256": "5dc91dba1b65755759b5d537faa87a981665496e409e967c02a1d8fa7ce970c6",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/.gitattributes",
+      "size": 36,
+      "sha256": "65c5597804d31d2c6c9620de370e65beb77be3c4bb306420135b5823796ba0d4",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/README.md",
+      "size": 1004,
+      "sha256": "7fd5f41c205f95fd417c7d9a485f01cf41dc906628b2cf4a02b400984b685c10",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/pyproject.toml",
+      "size": 679,
+      "sha256": "70a31658fa6213dd2c44fd2d06723a9ff48de0aaf93a40073184b4e80dd8a40f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/.gitignore",
+      "size": 339,
+      "sha256": "85e257d2e3a89c341cd34dc0ff643c8b4c97a2db557f448feac249e75d554d06",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/fixtures/tiny_model.py",
+      "size": 1462,
+      "sha256": "9e965d869887b58e520eddcf50997bb6d9355bd5f3df1376041e82abaedcd1b0",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/fixtures/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/regression/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/integration/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/integration/test_preprocessing.py",
+      "size": 2879,
+      "sha256": "9855f4b2e7ced21166451b337ccf0643d151d7d95d7f78c9d0c80ce859a20a1e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/integration/test_phase_b_tiny_t5.py",
+      "size": 2359,
+      "sha256": "db10cd631a92d8749b662035688fdd7dfe868906db8370eef49be0e66c4a1b88",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/smoke/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/unit/test_phase_b_routers.py",
+      "size": 3768,
+      "sha256": "5b288ef8223a860714cbb26cacf7c2d0067c84604b52fac18908d000097727fa",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/unit/test_phase_b_protocol.py",
+      "size": 6409,
+      "sha256": "23cd3ad24fa35889ac34116d6ff6a41249cb34a026c281e889532b444a58f916",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/unit/test_logging.py",
+      "size": 5089,
+      "sha256": "c6fcf5b8e6cab66ba25fa11f3a8b6d3d5930ffd9a5c170ecbc82b40cc1225689",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/unit/test_phase_b_entrypoints.py",
+      "size": 2411,
+      "sha256": "6c2a2ca3446fb0af03b419c5a3701648cb493644beaa4aed6be4c4e15634f12a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/unit/__init__.py",
+      "size": 20,
+      "sha256": "7e9af23c4d8769e855436c950c52874ef9d5ac0c36f24531913b3ca965d6860f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/unit/test_io.py",
+      "size": 4185,
+      "sha256": "ba0da273c57df1dc43eab5487f89d82a16a133bc0a2765bcd5ffe01cd88018bd",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/tests/unit/test_phase_b_visualization_layout.py",
+      "size": 4969,
+      "sha256": "470aa9e365dbeac4225a4bdd69be6d6f3dc7843ebd87898cd8976ebd42d0f3af",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/imports/phase_a_f0.example.yaml",
+      "size": 345,
+      "sha256": "396f2e3abe0388a0b5fc8217a715a98f360c95764be62ba6ad8598efaef613ad",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/metrics/phase_b.yaml",
+      "size": 306,
+      "sha256": "246a63ea4065bed456192f661fd1a05ffb1bbad64ddbd4b9c3f81ed01d91dce3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/arms/phase_b.yaml",
+      "size": 474,
+      "sha256": "1ef9f67e618d7f2884a57c0798d96b25acd4a56e5c48aa9f2f015443c313c113",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/suites/smoke.yaml",
+      "size": 369,
+      "sha256": "86e642f37a6f376c3022aa9d86edf36e0b9eb25cdbc8cf4f4959e167f4779396",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/suites/phase_b_f0.yaml",
+      "size": 236,
+      "sha256": "53ff51da84839d0e360f75908005f5d8d04e47aa0d0f925777f5629e24e7da07",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/local/server.yaml",
+      "size": 1409,
+      "sha256": "891a4ed432e3d8f4f460c15269afc37b085b0f654cfbd57ab3cf701aff0d3e72",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/local/example.yaml",
+      "size": 1064,
+      "sha256": "0e65cc2e5e8f7473fee46dccb4b20d3dc09fd981d9dca596fe9f546c6212a91a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/local/server.example.yaml",
+      "size": 1310,
+      "sha256": "cc274bb57bb1eeb20478b2098897319be4213c1ce8c6045968ce3167be07fe85",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/base/default.yaml",
+      "size": 966,
+      "sha256": "6cbd13188c1ea4ca62f8ad5c5bcd2f5d2bbe1647c74f5db51d75d9897eefc617",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/capture/phase_b.yaml",
+      "size": 260,
+      "sha256": "4c214c4d6c299922f3dd5e5bd81dc35fb6a70b291dd56535d0b2db42afffb0d3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/configs/training/router_f0.yaml",
+      "size": 365,
+      "sha256": "31677094a7681b97b439976645dc8f306f08d7bae11c6ae83c13b47a6237738f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/docker/aihc/requirements-task6-phaseb.txt",
+      "size": 175,
+      "sha256": "1f75e12861de07c121b44d03446ff54fd4c755b7ada3208c4a1522fcf8ee67f0",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/docker/aihc/Dockerfile",
+      "size": 906,
+      "sha256": "4adf0ef03369d07507cbb502b02a9c884080ba83ad356c41f1af6895e895a5ee",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/schemas/README.md",
+      "size": 700,
+      "sha256": "d1bbbe109a6f912618dd9996e3601fb4c553f5c8c0df1d75c2788e4146fe6d13",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/schemas/captures/A.schema.json",
+      "size": 522,
+      "sha256": "1f3d842b96ffdb7d423eb845f205ad2e5143d198f0bb798d3c896de973acee2b",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/schemas/captures/C_D.schema.json",
+      "size": 943,
+      "sha256": "0ee68cf4b6e800cc9165187be722c8608d6533de87101dd07f56b53a01b16b60",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/schemas/captures/B.schema.json",
+      "size": 630,
+      "sha256": "93e5fc08a5c9c4ddefcadd84c83d01a309b42022b30cb045f382060746504ad5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/schemas/metrics/condition.schema.json",
+      "size": 879,
+      "sha256": "6e26fdc7392eb17912e07906d840a4557494d9b4ec0db3396da5947a086b24e1",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/schemas/results/records.schema.json",
+      "size": 477,
+      "sha256": "6f94f8db1c17500e4d9d391d38d03a3de1898fcbff85efac3512d3e85b3fc621",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/schemas/manifests/artifact.schema.json",
+      "size": 421,
+      "sha256": "73cadc03b6e6e8647bb4ef35bdf368825f6bfe97da1a8a5070336ccba21b62bd",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/_python.sh",
+      "size": 324,
+      "sha256": "86c42fc9a1c8b2aab98297aee96d85942e515ef7dc18ae515683cf07471628ad",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/run.sh",
+      "size": 159,
+      "sha256": "22857ba92357dc5652e33afcf15d4f9616a407ac7c1ab70c9f8233d0706cd417",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/55_import_e64/run.sh",
+      "size": 153,
+      "sha256": "06d34f299befecd38e91b0dfbb11b92bb2af5dd1d09285341bac6bc9c1936713",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/20_validate/test_local.py",
+      "size": 1892,
+      "sha256": "8b8e8a149e8026ae388521393b280eb1f78b3001e65910b21a982be0a6f89e6e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/20_validate/run.sh",
+      "size": 151,
+      "sha256": "d16177053414d1e5da00d7fe9277e3396c6a0f2ed9d4340c528abded32403dc4",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/20_validate/test_local.sh",
+      "size": 174,
+      "sha256": "a29a278c82a22d05b37a51755c0ca9c864ddfb9cb44fbb16e49569b616bd885e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/50_metrics/run.sh",
+      "size": 150,
+      "sha256": "8f941a7a6aad8ec81e542e8f863354307bdafd41e814afd40bd77c45ca09e1df",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/00_preflight/run.sh",
+      "size": 152,
+      "sha256": "e0756d3dba48adccf24c7d9cb0ba59767503774a6e727d2bef94123528728fd5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/80_figures/run.sh",
+      "size": 150,
+      "sha256": "13d3590d9cbe07c35e3157fce69956cef9d5f0d8304a40db7269ca0032ec47f9",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/10_prepare/run.sh",
+      "size": 150,
+      "sha256": "71cfdaefb7ccc40c1a32243cbe0517e6904e1e776bd85f3f6550fff6646dc974",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/70_tables/run.sh",
+      "size": 149,
+      "sha256": "26cc0ece3c2c1dd793df8f3e56abcf93449dab7515fda5f42eb811d6d70acf5d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/90_formal/run_all_8gpu.sh",
+      "size": 156,
+      "sha256": "e0c52cc6c30fcfd8e7432e6eff9c7e9403373ea6c45ad2dda8ecc9e3fe94fb83",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/90_formal/finalize_cpu.sh",
+      "size": 1119,
+      "sha256": "c59982bd6d4dfbd3abc6a8e1c034ef1672d94b89e4fb42e5032d794c34c0a578",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/90_formal/run_single_node_8gpu.sh",
+      "size": 4805,
+      "sha256": "a4336796c658c87dd5a94fea2cd53422a91756d217cf46bbb57e6dc6e477ae91",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/60_aggregate/run.sh",
+      "size": 152,
+      "sha256": "a8b98b3958957db9a2ee656f34cb3e9714a15019840db1d8d8a4ce7f606f68f3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/30_train/run.sh",
+      "size": 148,
+      "sha256": "8bac324cc6a17f4db6cd3d43b94de684a8a596b102b5be064505945d31a4a422",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/scripts/40_capture/run.sh",
+      "size": 150,
+      "sha256": "810a0a9ffa8af615e6544f26802682d754fab7966fb8e72265013ba981480235",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/cli.py",
+      "size": 7660,
+      "sha256": "2c0a3cb75ab1e1e5ac4aafac125f50c82ff4bd54e2c9db8abd971d318697f004",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/__init__.py",
+      "size": 97,
+      "sha256": "fc0cf3ed0e9243bee0d384618b280a3ac409385a622b376a8292d5f50232a632",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/__main__.py",
+      "size": 42,
+      "sha256": "7995167fdea5cac06fdd70c61f98a3b82d2682cf2ea46d38b3983f8c1d63ba3c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/substrate/model.py",
+      "size": 6854,
+      "sha256": "81bbb330788f796610b5e154014ee6da0a749ff9f4410757a8ff4fed7670b818",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/substrate/validation.py",
+      "size": 5447,
+      "sha256": "a41bd4bf16045265eeedf76ff9e8aeb3c1ba558906d133f704424b70441afa98",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/substrate/__init__.py",
+      "size": 43,
+      "sha256": "a698a54dab5ebe93e24a0e1c994cb0e92eac21a657ff73cb92dece436f4521fa",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/substrate/assets.py",
+      "size": 5381,
+      "sha256": "84cc0f60c779d2843eb06f5f49d25e8840a3c285f9028d20178dcc2ff7f88ad5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/imports/__init__.py",
+      "size": 59,
+      "sha256": "116fbca5f9d3ec36d165cc6cfc53dd8a51fb77d125de9bafb7fbf101afcd5591",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/imports/phase_a_f0.py",
+      "size": 5887,
+      "sha256": "0b1931471eb7fe89b0caca12d1da54fd1b16b1dcac2cd2397bb9fd8539295027",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/aggregation/pipeline.py",
+      "size": 10113,
+      "sha256": "9c43996e7a80e0ece1936867aa4eacdb87f7186c274cb8de184135cf583d17d3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/aggregation/__init__.py",
+      "size": 45,
+      "sha256": "3a86c246ab835c5ea3891094cc9c4d146c7e0678938b664aa9c73d9a4b826f23",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/aggregation/core.py",
+      "size": 1189,
+      "sha256": "29bc19bb604c54fac324fd585d6b3dd05f0695f11500b3001401bfc582301ff5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/pipeline.py",
+      "size": 10957,
+      "sha256": "838900651f5e43d9626d4e6e8afbcad30c4a9f684477fc1e63ffd465a2e9cd14",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/__init__.py",
+      "size": 40,
+      "sha256": "5b5be4e72a9545f9e8923277198bfcf9cfb7d9fa7d0b682aa8a65537e871f6ed",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/stability/__init__.py",
+      "size": 41,
+      "sha256": "98701a48cc4d9ce069c760d80a69b0269635d3969a1b0b8912b7de5387b7bc4e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/stability/core.py",
+      "size": 421,
+      "sha256": "678ce32c5a9221f14458eaf4b5cfb9c7f1381b6e5314e68a868e590dd807348a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/load_balance/__init__.py",
+      "size": 38,
+      "sha256": "4b9141e706bdbc841cc98e6940f0de6f3d7362172718cdee114897125499925c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/load_balance/core.py",
+      "size": 555,
+      "sha256": "5bbe04c5b2e1b83e87e60d50b330fe09361d66c7f18b9588034e4cd5c63ed649",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/selection_quality/__init__.py",
+      "size": 63,
+      "sha256": "fcf0dfde991af9da2b4594dea44b3cb4f18b5ca8852f06af88569cd02e1adc80",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/selection_quality/core.py",
+      "size": 1765,
+      "sha256": "2a042e33b894d02af1583b1181a1da40006fce754ca03e7d2ba0ec6f3994b3b7",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/performance/pipeline.py",
+      "size": 3084,
+      "sha256": "c761bf180709b601c0757a4466d43ca2b679ae9feafe71d234309c529edfa07b",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/performance/__init__.py",
+      "size": 35,
+      "sha256": "952822d1c7dcbacdd9cf7967ee0990e5ae51e1ad4533ed450b680f25cef371a6",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/metrics/performance/core.py",
+      "size": 1325,
+      "sha256": "c9574eaff4a55f4c0c8d3fa9558b6906292abc701370a8c5c428ccb053067f8c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/routing/__init__.py",
+      "size": 41,
+      "sha256": "4de0eff7599823cbd167e2f26ce681a9169f1130a4126ba6c77710fc0afb263d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/routing/routers.py",
+      "size": 4748,
+      "sha256": "517d0e3dca787f64579a75ae87d97c66cceaaef0338237f96e326b8ed0f178a5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/visualization/render.py",
+      "size": 15268,
+      "sha256": "e208fbf5799b568f24ae5fa3c737a0c063c0735baab9cefb19209d1a7454ec85",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/visualization/__init__.py",
+      "size": 47,
+      "sha256": "67e2ebf539bdc718c96cf59ec61973f942112dce8e6b5c5969ab8d02a12aec04",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/visualization/common.py",
+      "size": 7532,
+      "sha256": "cbb041842561b2cdfb48ec0cb603a0e14580edbe95a7dbd1c95d940ce6059ebf",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/data/__init__.py",
+      "size": 38,
+      "sha256": "1a8b5697e7fc2d662fcf3ac06a285b59fe2de1252281c43af2bc1ff7da004a9f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/data/datasets.py",
+      "size": 8714,
+      "sha256": "8f708e04702ed327b63aba352b904c1cf8ebe4bc1252cf56742633291e0d115e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/capture/__init__.py",
+      "size": 41,
+      "sha256": "3890fcc1f74b58cd8930b2403700ddf0a5a4c35cb4b9c5b53f31d5b09678a3e2",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/capture/storage.py",
+      "size": 5129,
+      "sha256": "8268f4eece21a89e146c3d54437e2878de07e6554fa064e7125cf5fbfb456d3f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/capture/runner.py",
+      "size": 8553,
+      "sha256": "ce401540d4b58778e5e8c84d2bd01e006ff84e4801e1bdb13184b54303d92287",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/training/schedule.py",
+      "size": 339,
+      "sha256": "5fbe3987a2c80196a70904aeba45955713b0a43c438ee783a70e3d4bfccc82f8",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/training/__init__.py",
+      "size": 42,
+      "sha256": "d9cd5fd669b671876918e08570af21e44eb4628952b160dd2e83386e3fb16153",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/training/checkpoints.py",
+      "size": 3698,
+      "sha256": "972eafb4f7156ca2725e3ed91d7a37020ca4f1565bd742273d914add22d0364e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/training/runner.py",
+      "size": 5835,
+      "sha256": "e2609f2ab96b67df1cb05c213a5a5e7051ff8884de96e1eded720664a6c4792c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/common/io.py",
+      "size": 3636,
+      "sha256": "46351a43c7f45d34472b5ff906053a53099e677de4ced99e3acef4ee28173584",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/common/randomness.py",
+      "size": 1688,
+      "sha256": "6cbaa3a54e3788114cd81ba3bb18f34cc9877bd04add71e3091c051f04ab497a",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/common/__init__.py",
+      "size": 40,
+      "sha256": "20899fd45928237e32e6a301f33d13d8fc087c72f553bde93ad65f9d47937c4f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/common/context.py",
+      "size": 6887,
+      "sha256": "1aa86a7f2791910bde1f98af9ea3dd93c462bc4398eb7cd5598dffb65e7562ef",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseB_reproduction/src/task6_phaseb/common/config.py",
+      "size": 11908,
+      "sha256": "e088c0a30a64837d65fc3323fbcdd8a8d5f1ccdfca3402fadfb7ba10b4402334",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseD_reproduction/RUNBOOK.md",
+      "size": 4579,
+      "sha256": "0dc78cc2172d7b846615c037a415db77e35dbe7f11181c4938633a6ccd49c312",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/.gitattributes",
+      "size": 36,
+      "sha256": "65c5597804d31d2c6c9620de370e65beb77be3c4bb306420135b5823796ba0d4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/README.md",
+      "size": 1479,
+      "sha256": "8d8ecde19f7c16d72736d5178e4d36b4154fb5faebf57444868acc5500b46525",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/pyproject.toml",
+      "size": 834,
+      "sha256": "cc282cd18130d41413cdb26426df69c4aba19deadb219dec03cee559b37c3f77",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/.gitignore",
+      "size": 314,
+      "sha256": "1f8602684dad174a0ebc28b895145806642ea82c4f967ac5190fa21e746469c0",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/__init__.py",
+      "size": 22,
+      "sha256": "438d4eced56cc87188b946fd2ead42ae909010e0df6bcf7bd78ab47a1e4c88c4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/fixtures/tiny_model.py",
+      "size": 1464,
+      "sha256": "a57bb17958a8e52227f12a41643cd199cfdf1612695f1a65074b297af02b4194",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/fixtures/__init__.py",
+      "size": 22,
+      "sha256": "438d4eced56cc87188b946fd2ead42ae909010e0df6bcf7bd78ab47a1e4c88c4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/regression/__init__.py",
+      "size": 22,
+      "sha256": "438d4eced56cc87188b946fd2ead42ae909010e0df6bcf7bd78ab47a1e4c88c4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/integration/__init__.py",
+      "size": 22,
+      "sha256": "438d4eced56cc87188b946fd2ead42ae909010e0df6bcf7bd78ab47a1e4c88c4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/smoke/__init__.py",
+      "size": 22,
+      "sha256": "438d4eced56cc87188b946fd2ead42ae909010e0df6bcf7bd78ab47a1e4c88c4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/unit/test_phase_d_protocol.py",
+      "size": 3982,
+      "sha256": "709e40b6509424e61a3d6c8e33db4ab5df98a1f83c6682089fa2c04e11287fde",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/unit/test_logging.py",
+      "size": 5091,
+      "sha256": "6e67d7228a2667f6d8769f24c1713e8f3b051e0a1f342c46dda163649c3cdaa8",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/unit/__init__.py",
+      "size": 22,
+      "sha256": "438d4eced56cc87188b946fd2ead42ae909010e0df6bcf7bd78ab47a1e4c88c4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/unit/test_phase_d_routers.py",
+      "size": 2337,
+      "sha256": "31e6855970164e79a29249de4a705cdf15c91abaa47f8d15cc4fb7b697ef8f8b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/unit/test_aggregation.py",
+      "size": 1746,
+      "sha256": "033888268d6ebcf2e3a3f4c14d63b6988d7c1cd16d4117dbeff2bc6618f39c26",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/unit/test_multitask_training.py",
+      "size": 1262,
+      "sha256": "465d3c412d2934124de6b4c2adb268e153f2cf1e385f2c66462ac864f0ebd41b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/tests/unit/test_io.py",
+      "size": 4521,
+      "sha256": "1a0d59ea0e5e5a0039f19020833306742ed774c328131cf57e9f28573703999e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/metrics/phase_d.yaml",
+      "size": 449,
+      "sha256": "0fda45a1cbb7ec34e9184c454ead19148c606c369c617b1649a3bc01791c623c",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/arms/phase_d.yaml",
+      "size": 476,
+      "sha256": "87c8aaa0bda777f7d401742b9b4cde3a6773d56d08445335d58d2745dd7cb496",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/suites/phase_d_f0.yaml",
+      "size": 246,
+      "sha256": "647cdcdc6098d9adaad4e9d56c079360b379ced16e51ad305709e3f34cbb0bea",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/suites/dense_mt.yaml",
+      "size": 143,
+      "sha256": "692a3c19b50670a219cd8b1bde31d1f449d78a268671d4b9ed858231e80b240b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/suites/smoke.yaml",
+      "size": 804,
+      "sha256": "a1f74100fb0fac80b41863bec3a0e1bc6b8afd94927be06eecdb6c088355906f",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/local/server.yaml",
+      "size": 1676,
+      "sha256": "e4c8cccbafd18961301c672871dda37ed5a52fdc017707314278101d56987739",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/local/example.yaml",
+      "size": 777,
+      "sha256": "15cd5d5294249734605a68959dd3400108d27f89f5176df045513ba1698d96f0",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/local/server.example.yaml",
+      "size": 1676,
+      "sha256": "e4c8cccbafd18961301c672871dda37ed5a52fdc017707314278101d56987739",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/base/default.yaml",
+      "size": 2352,
+      "sha256": "3c6efa2759a39503545e64addb3a3fce9768fb8905e9d85f7d5ac1bcc5847f90",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/capture/phase_d.yaml",
+      "size": 392,
+      "sha256": "b19c0707f56cc394dd01341449562c590db596e12454c12af7f91aebdde91a46",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/training/router_f0.yaml",
+      "size": 448,
+      "sha256": "a67191fced9c91ae9f9a836982875469da045b6c868b0439bbb61b8db338537f",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/dense/dense_mt.yaml",
+      "size": 506,
+      "sha256": "4fdf39d2ccc44d33b6592759612ddd42471bc490e538d67e186b48ff579b9ec7",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/split/phase_d_seed1.yaml",
+      "size": 349,
+      "sha256": "db843fafb11aa32f8e59fae4a347d978a0be911b431eaac663ea32761c9fc42c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task6_phaseD_reproduction/configs/split/e64_seed1.yaml",
+      "size": 397,
+      "sha256": "ab8734965b43d6e2f31ae82de073bf2aa17b7e1c6978f4c690ebdd97ff48d5b1",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/docker/aihc/Dockerfile",
+      "size": 908,
+      "sha256": "1f29691885011cd62df9c9c0fd870b76cd6e85bba23823e8f33b91ea7f33ef99",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/docker/aihc/requirements-task6-phased.txt",
+      "size": 175,
+      "sha256": "1f75e12861de07c121b44d03446ff54fd4c755b7ada3208c4a1522fcf8ee67f0",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/schemas/README.md",
+      "size": 767,
+      "sha256": "a32ed2e74c944cc4a7170803c52d3fa03f35d0a1719c2d41393f187918a54853",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/schemas/captures/A.schema.json",
+      "size": 676,
+      "sha256": "0bbadd9c2d5c2efd3c9853a2f28b0c95fe457a9324027ab442343ffd411b5caa",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/schemas/captures/C_D.schema.json",
+      "size": 1188,
+      "sha256": "8f5761db6d2100ae5a541e5a3cd501eeda1def285941e4e3e38115e9419cf7a3",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/schemas/captures/B.schema.json",
+      "size": 643,
+      "sha256": "914871aeceb741e41c5ba3e5ccfe472785b2481bd06ec33174ee9881a25ad542",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/schemas/metrics/condition.schema.json",
+      "size": 906,
+      "sha256": "f40ebad8ee4912976eb594b9a05e872324d9c4b9913d6bdd12d7a48b619fd6d9",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/schemas/results/records.schema.json",
+      "size": 488,
+      "sha256": "1d44c83e89f26a69399056f53f875dff2e6a886ac236ae36a4e68cbd10a55dd6",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/schemas/manifests/artifact.schema.json",
+      "size": 423,
+      "sha256": "57cab41e2fcfbe41f3ff60f90c7b48631ea0ac1397a423a1d1d5846a89c6dafc",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/_python.sh",
+      "size": 658,
+      "sha256": "469de915851859ba32f4504e04dcc70d3117ead3c758b4b673c2c75df6cb1454",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/run.sh",
+      "size": 160,
+      "sha256": "f7e52039ce62d23d435915cc2f0dbcc0b3fca45848ef727bd4f844e88d94a501",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/20_split/validate.sh",
+      "size": 96,
+      "sha256": "40903d6110471ad9b966b9c8ed32f4864f90c5c309842cfdd02d70be996e7022",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/20_split/generate.sh",
+      "size": 96,
+      "sha256": "d21c1fe34c434ebc29662a67266905340fbdfc30184edcea6bcc3c3d7214608a",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/05_data/validate.sh",
+      "size": 97,
+      "sha256": "6096254c40a8e9552fdb6a126adc3b31eb072b13aacd9e95cf4f41870acfdeca",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/05_data/download.sh",
+      "size": 95,
+      "sha256": "e5140dd0d25771e899bbc26adbd4bf1edd98817f875b5a9ac8393643c36313b1",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/20_validate/test_local.py",
+      "size": 1894,
+      "sha256": "c957fdbaf1ca6551e1be9a4b5ef91132e1667fdc487e5df96486f95159c85c0b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/20_validate/run.sh",
+      "size": 161,
+      "sha256": "ac28510808a380b4fc8070838c6a8d5a27383eeb1c8421f684ce999e7d1845aa",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/20_validate/test_local.sh",
+      "size": 175,
+      "sha256": "a21af17bcf07a4170217b5ce8408d1f64ca898881c2cd96d0e2d502c187c2ca5",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/10_dense/evaluate.sh",
+      "size": 96,
+      "sha256": "c5dd76eb96c3e2478fdacc491d6e0c2a7699f1e04b515e01fc25c5f016ffb90e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/10_dense/select_best.sh",
+      "size": 99,
+      "sha256": "adedda1a9e30fa85ac6f01f4a730aaf2542a3667f745865d6c6bd23a33c1a1aa",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/10_dense/export_best.sh",
+      "size": 99,
+      "sha256": "e93eafd44a16c507c8c4b8c12a4fb0cdc6bc4ed299e709a391cc1b338d8c1b8a",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/10_dense/train.sh",
+      "size": 93,
+      "sha256": "9a3abf1f8d965ffec92b29a827bf43decf081302ea4d15177026dff630835d64",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/50_metrics/run.sh",
+      "size": 151,
+      "sha256": "a3da59176f401d050cba8f83e98a3989896e3e80c75b08c5443824cda48891c0",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/00_preflight/dense.sh",
+      "size": 97,
+      "sha256": "6096254c40a8e9552fdb6a126adc3b31eb072b13aacd9e95cf4f41870acfdeca",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/00_preflight/routed.sh",
+      "size": 98,
+      "sha256": "da4e479ef0838885731a878bb7adca02cb89386515ce63a666618726a0a47c80",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/00_preflight/dense_batch_smoke.sh",
+      "size": 99,
+      "sha256": "337702172d8a4a0f5a65b6fb2111df73a2146fdf2099f7fca7dda61d6e46e30c",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/80_figures/run.sh",
+      "size": 151,
+      "sha256": "3116eb70c5ea2c6a8806c3021485ce607487450e53ccab4c63d78d1e610c0c35",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/10_prepare/run.sh",
+      "size": 159,
+      "sha256": "31b2ecc1bea26bd6343c90f2127afc7c68b55b2fda0498b631c46818d2a6422e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/70_tables/run.sh",
+      "size": 150,
+      "sha256": "314d3cb59ed65816ce923b8a8569fe2e5c67470eb6b837a1a29c5b79c668c007",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/90_formal/run_split_cpu.sh",
+      "size": 455,
+      "sha256": "e4f96f6621b6fa55b82b9c8a0c432875c75344bec6f34d8dafc97738cf024e07",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/90_formal/run_routed_stage.sh",
+      "size": 1127,
+      "sha256": "3beed8560af688b7a0baeaa3d222251a395683280e3b8612b27ad34238598462",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/90_formal/finalize_dense_cpu.sh",
+      "size": 379,
+      "sha256": "14172f72ada4f7658ad8fef956f946f5bd05c27156f008b5caf2cfce79ce38cd",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/90_formal/run_router_8gpu.sh",
+      "size": 606,
+      "sha256": "31301c3dc2c61642ebab15524f6e83862029d0e33f730b1c2769370c4c81c734",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/90_formal/finalize_router_cpu.sh",
+      "size": 410,
+      "sha256": "7af9733881dea23993df576fc3fc9c338041d64a4d6042816f3935ff9e800998",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/90_formal/run_dense_single_gpu.sh",
+      "size": 706,
+      "sha256": "985656e91f8026466880fe31a1015ab5f62768b06b85cc180788bda3e6c57899",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/60_aggregate/run.sh",
+      "size": 153,
+      "sha256": "c850bbad07d249a90fcf214a5815abb95c355488004d3adef13068ee99c02f1e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/30_train/run.sh",
+      "size": 157,
+      "sha256": "fa5d85ab6b836c260f7ea178b4752440114cc17a90151de1f04e49f1be0e6f3c",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/30_router/train.sh",
+      "size": 94,
+      "sha256": "46928a86845dda9cc88eee4c0118fa59911f4f612ab1843efd276e840cb497c6",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/15_dense_results/tables.sh",
+      "size": 95,
+      "sha256": "138c407211619d37a3f7dd08a5c70e2302b001addef98426f90b6bfcc86ccc0e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/15_dense_results/aggregate.sh",
+      "size": 95,
+      "sha256": "138c407211619d37a3f7dd08a5c70e2302b001addef98426f90b6bfcc86ccc0e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/15_dense_results/figures.sh",
+      "size": 95,
+      "sha256": "138c407211619d37a3f7dd08a5c70e2302b001addef98426f90b6bfcc86ccc0e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/scripts/40_capture/run.sh",
+      "size": 151,
+      "sha256": "71d7fef6eeef60505a27c447953c5cbf688f8abe00638e1287e6762d69504a9a",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/cli.py",
+      "size": 9743,
+      "sha256": "6633f4ad107950ec8fb51ac0730a6344dcfa45a3ee74b7f3ed9e260dc88c48e8",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/__init__.py",
+      "size": 101,
+      "sha256": "a7d0b787aff433e19176c4a3b28c89f65e17b0400aa103eb91cb5a905222c88b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/__main__.py",
+      "size": 44,
+      "sha256": "d39c8052602f8644a2f6bbc61056b9af57787b2422872101f759c2d03ed7b874",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/substrate/model.py",
+      "size": 7161,
+      "sha256": "1d8764d9741395313fc9a7b9cb2d1c5977d01e59ebd56a1e67b3bed535be3ce3",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/substrate/validation.py",
+      "size": 2362,
+      "sha256": "e291fd9f0119ea34369dc88b3d90a0a8190f9a96a5a89c74c51ab4263116eb34",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/substrate/__init__.py",
+      "size": 47,
+      "sha256": "579dcb5bb291385f23c7d50465e3937e1aee53f262944ba8e78c46e9366d4f5d",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/substrate/assets.py",
+      "size": 3984,
+      "sha256": "dbf4b7be03018e3ed8c4d0628117af2d350e32665e97718c0c705b6875f876d3",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/aggregation/pipeline.py",
+      "size": 13740,
+      "sha256": "ce219896247008b4a27f97ff21cded6e48a8c957d7c11bd28e42ab436b16ce8c",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/aggregation/__init__.py",
+      "size": 49,
+      "sha256": "182033a60c2a8d3ec565fbcf01ff6207bb7582b5edd1bda8c199206c600b1309",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/aggregation/core.py",
+      "size": 1191,
+      "sha256": "18d670e45fe17050d24632be680162a26fa3af2d16937ac6d5971fe9b5cd23d4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/pipeline.py",
+      "size": 9647,
+      "sha256": "2f82df069ef74ff83579e28547a7e572705658df2ff10753461a1d686b50c27b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/__init__.py",
+      "size": 44,
+      "sha256": "ff08b87d9431ab9f855b35747314ac25df8018eef2c1f84c7631128b88e0c718",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/stability/__init__.py",
+      "size": 45,
+      "sha256": "12fb91636104cf228639bc41670aed74594e1470acbf392a43f02af17134fa90",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/stability/core.py",
+      "size": 423,
+      "sha256": "9dbc69461c9b24fa6d15cb32aad7901b3cb3c7a2a925086509a6423f4ad412f4",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/load_balance/__init__.py",
+      "size": 42,
+      "sha256": "38597d70ed0dc07eeb953e960b5e95c5b0fb3efedf9cad677f05e1e136de2b3c",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/load_balance/core.py",
+      "size": 557,
+      "sha256": "7b451c28d932fffb5dea63d5f776e7a572f714647ad2aac1afda78f6c5c42654",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/selection_quality/__init__.py",
+      "size": 67,
+      "sha256": "3298b16e91df6a8cb4fafbbf10b604a408f40f5f799fde21e739c6687cfa09a1",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/selection_quality/core.py",
+      "size": 1233,
+      "sha256": "f2c733055fa12561056b1f1b5653b1c424d40f42b5483360d0a080b849323d9d",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/performance/pipeline.py",
+      "size": 3397,
+      "sha256": "9fe963ee1d601ba95faf58dbdeabef5341952aacfc215a0e7fb0b41673ad2b0a",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/performance/__init__.py",
+      "size": 39,
+      "sha256": "f34c5760e2b10f9830ec4b95e7e5e679a0cb2aa827137951aa3884dbfb900421",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/specialization/__init__.py",
+      "size": 55,
+      "sha256": "13429a15f906076a45ea252d50edf536d48c683a7aadd66aad747beab2119b23",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/metrics/specialization/core.py",
+      "size": 1517,
+      "sha256": "6b490f061d29d9d3eadcb0d4fb7eabf90e6d15c725fb58e3ba3f24daf6aa60c0",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/routing/__init__.py",
+      "size": 45,
+      "sha256": "cd44701f46be359c1491e082f3d0bd7eca7a36a0324ced26ab6cc9d1284e1e67",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/routing/routers.py",
+      "size": 6082,
+      "sha256": "a255d8f15bc318aaab0fbc765094af57d6fd6e9fdf615c1f08cd3666c38158ad",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/visualization/render.py",
+      "size": 20258,
+      "sha256": "378124bac63b5b619a4415c9a7f425e5a5d6783957e9c8d1903c41aa6c953610",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/visualization/__init__.py",
+      "size": 51,
+      "sha256": "9965563ce9b7be47ecd8b60d23eceaaea34212511e98bc84eb32e2ab95cd3843",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/data/__init__.py",
+      "size": 42,
+      "sha256": "59d333910ea8458f711431b1da8dd1909075a89836556bf7af339cd39021e311",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/data/download.py",
+      "size": 2501,
+      "sha256": "04a67602c552789cec51a7b208c7c5f21308ff735919a56d934f21803ccad6bc",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/data/datasets.py",
+      "size": 11582,
+      "sha256": "03c1f4e1858cd6c917cfb7bd4b2a6cba9092f7c055aefad9b7e81c2efb6f7215",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/capture/__init__.py",
+      "size": 45,
+      "sha256": "140f2e3654920575321976a7d042a736f273a297f8c1d51c0eab12b9c29601fa",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/capture/storage.py",
+      "size": 5759,
+      "sha256": "0e15315805c2687cf9fbce5dbf1a045602862663a990020e668c619ea34bfb67",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/capture/runner.py",
+      "size": 8254,
+      "sha256": "5b3a95bea6c84e9d00b1efdd6a16b5b40722fdee82f956e312250fe3d78b57f0",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/training/schedule.py",
+      "size": 341,
+      "sha256": "31b8003159c837af99c4089266e59ed1a1cca22fcd8fb279bf97ed67f2ed0467",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/training/__init__.py",
+      "size": 46,
+      "sha256": "5395797b7b93c482c8e37d2ef1583523605a35f1d5ccdf230a35ce0eb3236e41",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/training/checkpoints.py",
+      "size": 2934,
+      "sha256": "622b5159c6687ca836b7f17da08e05fa0d0088562ddc6dc3733e90e92e802f12",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/training/runner.py",
+      "size": 6201,
+      "sha256": "c2053df4a52742c603d7a925352b38a102fe4aca1f32b784107e6ad2b92f241a",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/common/io.py",
+      "size": 3638,
+      "sha256": "07d81d09908867cd0869f43207d373256286b69a1a7831e9577b593e55feaefd",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/common/randomness.py",
+      "size": 1690,
+      "sha256": "23c3efff4f5f8f2a2d615ea1e1099cce232c129e2afac0fb4c740fe12a2340ca",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/common/__init__.py",
+      "size": 44,
+      "sha256": "8ba7e732fc4a3d624b1f877c1cc5c0c2723ecbb157f18870cb63175e6d201df7",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/common/provenance.py",
+      "size": 1120,
+      "sha256": "6e5a8e32a29a66121768e764b4d7ec0047e5d58a5ea64b3c63ba79a78e0b82a2",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/common/context.py",
+      "size": 5176,
+      "sha256": "cb72f903a48420d88915e9d20c811575fa7f24fb87110ef80b379ee8ef4b22b6",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/common/config.py",
+      "size": 12371,
+      "sha256": "505a6cadd9ad7ed5f963e182f559569077abd8f32d7713b990f215f6335c4e14",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/dense/model.py",
+      "size": 2247,
+      "sha256": "7327e72ce8be70cf71674df216cb8913b0381f59027621197be73f68fb440cb5",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/dense/reporting.py",
+      "size": 5818,
+      "sha256": "abd0037d5de91b49b2831796221b233bcc87232de4cceb7ff1e7676aed5e5f4d",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/dense/trainer.py",
+      "size": 8111,
+      "sha256": "f59e8551e531250fbfb76994966e6a5fc125b0e402c3f8b6b67fc501b047738e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/dense/__init__.py",
+      "size": 51,
+      "sha256": "f6c671015ab6ff5a9a199f0f234b1aa901b3d0e80c680592cb0f251c83a5c93d",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/dense/checkpoints.py",
+      "size": 2358,
+      "sha256": "1fce428df6f87a4bc1d57a055ad3ac0fdcb612790f43926e15e821f3666d95ac",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/dense/evaluation.py",
+      "size": 7781,
+      "sha256": "1fb5c1a91ca6573766b8f96003f49598c33948d320bc79a4fbdbceb0779da90e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/dense/export.py",
+      "size": 1867,
+      "sha256": "093e851764e4e5e560e022fcf5bbf4209421aae8180379803a0ebd7aa87deb30",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/split/validation.py",
+      "size": 1585,
+      "sha256": "cb9952322233e0907c9df2fd1a0a285a19e762bc6969018dc660e081bda53ab7",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/split/__init__.py",
+      "size": 60,
+      "sha256": "bf932510c2a8b210c1cc7c334400ee9f6d222c8d87b6cb93984609eca0f9da24",
+      "mode": "0o666"
+    },
+    {
+      "path": "task6_phaseD_reproduction/src/task6_phased/split/balanced_kmeans.py",
+      "size": 4355,
+      "sha256": "13f6a66e9b143f1059e1f4ae287465b865811795b4f9c59545e28f5cc9236532",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/RUNBOOK.md",
+      "size": 1432,
+      "sha256": "9c30818da6ee3526ed68b7299a88b8c8027f48a64d60bf00e050bc9d05a7aa44",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/README.md",
+      "size": 1412,
+      "sha256": "fa91510466c65b1f6932693a0041a26e4377ae6472d837e9850e7f5b44f0c052",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/pyproject.toml",
+      "size": 698,
+      "sha256": "83281719c8f38f3177c75d352526ab706180f960c844cfa8bce0ec0d56a5e2d5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/.gitignore",
+      "size": 219,
+      "sha256": "cbf5c65e1191ed944d7e0c46d84da7fb275fe541d4d1a54a0a0a3b17cbc5aa85",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/P2_RUNBOOK.md",
+      "size": 5779,
+      "sha256": "ee0fa1cbe24f12916b9e093e4988b11c279085b7c8e133abeaa0ccb3e287c224",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/tests/test_config.py",
+      "size": 878,
+      "sha256": "55aa483245062094ce2b768a70e988ff55e99765c29332fad0a5a67c04235c07",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/tests/test_effects.py",
+      "size": 1251,
+      "sha256": "c8d782263b62ec031551e2099ba86c2cfc84a42a6a722c9b86d7972f8dd57d66",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/tests/test_p2_numerics.py",
+      "size": 5026,
+      "sha256": "773c909ce4764f9df8c1b3dd2473725c59ceb6b681828837adad4baaae3eaffb",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/tests/__init__.py",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/tests/test_p2_routing.py",
+      "size": 2250,
+      "sha256": "c91a721132d71e181904dc0e65680452e5aac1b51602b98e2b1253e586fab44b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/tests/test_p2_artifacts.py",
+      "size": 1209,
+      "sha256": "58b9ce7545f0e450d7227829a6cd9b06768a0bd966097ddcb54e6ba041e7b9f6",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/tests/test_p2_config.py",
+      "size": 982,
+      "sha256": "86f990f27cb48fde9f3ed7cda12194cf9c06a0924168cfbac078908ed56c4e00",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/tests/test_io.py",
+      "size": 1869,
+      "sha256": "e611e5c94d53d699d87e40c3d15605b5d44cb8989f66d0ef9efcd77cb9a6e82d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/tests/test_routing.py",
+      "size": 3139,
+      "sha256": "bd89f3bef98410d963b1e848cd511f748dd049b42acba9a1e56cad5e4908424c",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/configs/suites/p2_n_forward.yaml",
+      "size": 623,
+      "sha256": "a3a5cec81a88891f78118164fa7ce49909c5525267e65edee166275cd5367b5f",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/configs/suites/p01_init_best.yaml",
+      "size": 382,
+      "sha256": "4aede1d214412a696bdd9898a6d00489f2dfc63dc207158c7bf5470e6d88e991",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/configs/suites/p01_best.yaml",
+      "size": 111,
+      "sha256": "a5a24399dfb2aeebf27834f8212d889a5db1eea234b29927db03813c4cb626e6",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/configs/local/p2_server.yaml",
+      "size": 144,
+      "sha256": "8ab9de65657195bef704c2bc18e247ebcca5e401489bd179a1bc9cfa3226dfa0",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/configs/local/server.yaml",
+      "size": 807,
+      "sha256": "6b710ff5fb1743c67a97882931ad43db71c24df62cf30c489d7634a579ceeedf",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/configs/local/example.yaml",
+      "size": 411,
+      "sha256": "7e51f4bf31b8eb46467bb5e1f7fb8603326d503e63e1d4fbec16e56182c0f65d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/configs/local/server.example.yaml",
+      "size": 807,
+      "sha256": "6b710ff5fb1743c67a97882931ad43db71c24df62cf30c489d7634a579ceeedf",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/configs/base/default.yaml",
+      "size": 1304,
+      "sha256": "10c889fa2376f5899f50c145d2b6f0dd25a6bf19615051883827f49e16cfc401",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/_python.sh",
+      "size": 606,
+      "sha256": "d0096f3f645d013da6760ec59200333112777fdb7eebb455a5bbe7da681a21ea",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/run.sh",
+      "size": 157,
+      "sha256": "af4312de97e6a671009c11d0224f42131e8ef115ff24d93d5e8d22bf7ad3f8be",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/p2.sh",
+      "size": 159,
+      "sha256": "0f225a04f9bf5fe1d6e37ae6d6e6c12fc276179db90772fdbd48ad569449b668",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/scripts/05_assets/link_server_assets.sh",
+      "size": 907,
+      "sha256": "58b563f8510cdfacb4d92ff12802d8d7cb3cf185bcb57cf2a0b26c011f790371",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/40_p2/run_smoke.sh",
+      "size": 313,
+      "sha256": "5b79b4029edb0763f9fa27207d55a1ba21ef4e41ac6a8f80b1dc4929beee07e7",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/scripts/00_preflight/run.sh",
+      "size": 441,
+      "sha256": "61c72319c4e86e815d5aa12497f6eda7e4f967296fb63451cb7b6959b2dfc502",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/90_formal/run_p0.sh",
+      "size": 1042,
+      "sha256": "cae31b945318bdee63910900c3c48e0643f953e10fdfedc0abe5eea898624af6",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/90_formal/run_p01_8gpu.sh",
+      "size": 484,
+      "sha256": "97023ea45b1c08f6b48df7f215f19feac67358056b7972939dec76aab84c640d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/90_formal/run_p1_replay_8gpu.sh",
+      "size": 1028,
+      "sha256": "62f3d686a59d67076548884b7b6c364c616064efcadb47a140a0de60e94e247f",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/90_formal/run_p1_full_8gpu.sh",
+      "size": 507,
+      "sha256": "eca741c38d90c979175598e760f1b8d62337cab9d9723795c0b5eae0b18a3cdf",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/90_formal/require_8gpu.sh",
+      "size": 327,
+      "sha256": "5bf7f33441e6e3fcd9141ff95f9c8243a9558e17fd6a140d70b5e9558eff9e79",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/90_formal/run_p2_n_8gpu.sh",
+      "size": 324,
+      "sha256": "de8e9af095d45b7aa9e574fb612b9b09ec398a3ec5f23eeca8ccc5cfd58b42c7",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/scripts/20_p1/run_replay_anchor.sh",
+      "size": 701,
+      "sha256": "68f408617dc3324e01976c6d38ffcd59369657d885adc70ae73101df2c8b0110",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/20_p1/run_full.sh",
+      "size": 1114,
+      "sha256": "ac36b255d045f014bd7b7ce8d8b9d74591ee22a3f8a685d379e2ee3e830374b9",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/30_results/run.sh",
+      "size": 461,
+      "sha256": "d8d06a678ced01080fbfbb91041160764a2ea1a79357929a98ed5c8c8d685a1e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/10_p0/run_properties.sh",
+      "size": 318,
+      "sha256": "0c929ada2e89755feac8dcb37bf294cb8c598f9ff7fd196e7872039375516c5e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/scripts/10_p0/freeze_panel.sh",
+      "size": 279,
+      "sha256": "2660bd4d95843862d7dddff8f2c7b5ceede8f87932577b85588b569d9243271d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/cli.py",
+      "size": 4435,
+      "sha256": "f2ec84617dda54c697023da5446dd0cc923e740091e0b0142f7558a71065c31d",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/__init__.py",
+      "size": 68,
+      "sha256": "6ced678ec86a7507e716c7241011a7dcf0018d7e79c52df4c05c9d3ca6364593",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/__main__.py",
+      "size": 72,
+      "sha256": "442d836b0ffe71e8470f08b41fd7697ff9500e34f0e624a0216408336d0d0a07",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/substrate/model.py",
+      "size": 5497,
+      "sha256": "bc1b6dc67ef5f818ce7bd9d48d6cdee711f52fb32f379fdd3b51ce6ff09a7b15",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/substrate/__init__.py",
+      "size": 154,
+      "sha256": "0182154b40770ee2e87c8f03478d76d7a3a0d29493f9a7a68dc834a32c1fd846",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/reporting/aggregate.py",
+      "size": 8302,
+      "sha256": "fd6783ec1f67a4abc40c8bee44e59ad40cd670ed38c504a3d7938c271aba83c2",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/reporting/__init__.py",
+      "size": 167,
+      "sha256": "7f22607342081ed3aa157a7badd4b89b87027f412a314b5ec48edd530f1644d5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/reporting/figures.py",
+      "size": 6648,
+      "sha256": "27888c25009d2c32848aa3f819df7240a1c23a50684263de0ac7e99a9c79c444",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/p0/__init__.py",
+      "size": 88,
+      "sha256": "73dd0cc9c90098a90f80586c804b5df70fe82a993f27697685e5cb753bc0036e",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/p0/checks.py",
+      "size": 6436,
+      "sha256": "2e5925146c42ec6e27aee6def773a1cb9f0c30c05a52783e1b7f9aa1939e65a3",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/p0/reproduction.py",
+      "size": 4681,
+      "sha256": "0713b8b4b11a19617e5d9f0086e3f3230f9a349f4c39b37a17bbe9cabe108772",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/replay/__init__.py",
+      "size": 72,
+      "sha256": "236c1000135ad152fb935ca36ca1594401c91856b51bab921d51dd7210af7bd6",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/replay/core.py",
+      "size": 1565,
+      "sha256": "64af7291e233e3d812b4d5c0cbadd80a065e21a3d260b9a940c4f22ac3dd4896",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/replay/runner.py",
+      "size": 9600,
+      "sha256": "fdf86e0e8e3b70f9cf0619403c2e948223cce256634aba1ad1f4c5d9f4e22379",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/compat/__init__.py",
+      "size": 123,
+      "sha256": "081e73a06824ae661413d14a7f1280af39c7591eb9601b80928edca55ff8a439",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/compat/task6.py",
+      "size": 1514,
+      "sha256": "13f5f40f00a572ae65b35312450b9f672712e36f201f900e647d7372d95b31e4",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/assets/catalog.py",
+      "size": 11882,
+      "sha256": "6789adf3ef676124388504113f1a442805d0b5cc18d3ec00d0d373e4e4aff940",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/assets/__init__.py",
+      "size": 175,
+      "sha256": "d054eeeffac662934140a4136c08f89f963ac20afdb887ee19d2c0ef98be1d68",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/routing/interventions.py",
+      "size": 5808,
+      "sha256": "79fe1493f85c058293e8beab11097012773bb929e690992022d1c47f53846c02",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/routing/__init__.py",
+      "size": 213,
+      "sha256": "85fbf724179e7d3d844c3cd46cd1c48d7be5430249f4051dcaeebf9dc38d97f2",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/evaluation/__init__.py",
+      "size": 92,
+      "sha256": "e95fff3472cd30338e48a8bc014b1cfe74005e57f0540bb67e92fa3aee8c31b5",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/evaluation/runner.py",
+      "size": 8241,
+      "sha256": "665c15e29f7a4d55533bff4ed43b859714dba2d27efa35c33e44637f1b424823",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/data/__init__.py",
+      "size": 107,
+      "sha256": "3277bfff60cd3ba2d2c512eaed2a3505d7a80616610c1584b516de695595a243",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/data/panel.py",
+      "size": 2576,
+      "sha256": "7b98dcd183de7942bf8c0060b2f8765a9105c132a06061bc083585736c0810c9",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/common/io.py",
+      "size": 3394,
+      "sha256": "a5605c2ee2a27943026f221a42cbca486108268d972a9a85ea38ba8bdc527bee",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/common/__init__.py",
+      "size": 56,
+      "sha256": "dc24021b53318aac9419a7c6c2833b7290571537328b1d4c611ea51a2f693205",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p01/common/config.py",
+      "size": 6391,
+      "sha256": "3dfb3df1974ae84c2483397bc79f91803818430cb7e012914de61310ca4de9eb",
+      "mode": "0o644"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/routing.py",
+      "size": 3643,
+      "sha256": "279642f994e78ff1b2e589bf8648cd13591aa884dd9e5e0666fecd89e6dee322",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/progress.py",
+      "size": 1975,
+      "sha256": "57869d3007f731d3e556ea3e2c1e1cdc3704b20474bd13e7f4a7c8e55a781c02",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/cli.py",
+      "size": 6961,
+      "sha256": "2dd5d070515d06f2293007cd28fadc7851fb297a3f471b05487773dbb905fa24",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/reporting.py",
+      "size": 9862,
+      "sha256": "c14882861ad03cef212e413122a8dedb1ccb4cb62eca253c40ee34cec20b29ac",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/launch.py",
+      "size": 4243,
+      "sha256": "bd43d797118edf4ff2cf728356f721b3241375d6b2729f423d78c00c3a32d474",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/__init__.py",
+      "size": 70,
+      "sha256": "797960d6e49ce0f82a9dd62c74ca35299a6efaf9375f3a246f99de491f5f9b56",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/traces.py",
+      "size": 8061,
+      "sha256": "513d3d7dac78fb2707f9f894cccf3718a1f21a68170af1d63c943669eb8c4184",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/numerics.py",
+      "size": 6808,
+      "sha256": "57e0d0f3016ce1419b50f48dcad29333b4e5a15941b07aa3456bdc446a66f527",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/__main__.py",
+      "size": 69,
+      "sha256": "9abdfdff55c8a4654d6dd937fd12a58d8229edb7b2979a9f57ecd24e03f0117e",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/local.py",
+      "size": 15627,
+      "sha256": "a5b3f18949dab72628008173ba628c11acf0816bf8dde448f64b0d3c14e305a3",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/context.py",
+      "size": 5740,
+      "sha256": "e980b98f4940b87c37cf876534c5723d08e41039b39b0d80570339b1282b5c6d",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/artifacts.py",
+      "size": 2680,
+      "sha256": "a94907b07bd13e70e37ebfd10e01616bff3468c95bfd32b0f10a6c85562d0f0b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/config.py",
+      "size": 3949,
+      "sha256": "bec7d9889a888c6951149f656d20fd52c148306ca2b5f9bf7acdec9b5ad21a6b",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/evaluation.py",
+      "size": 9701,
+      "sha256": "843e12978a145c34d1f2826e9cf966cccff72020d9f225858c8858fbc28a1475",
+      "mode": "0o666"
+    },
+    {
+      "path": "task8_reproduction/src/task8_p2/figures.py",
+      "size": 16940,
+      "sha256": "1a6877a52a30bd28ecfb3c5592b6cab2b4e379ff39f11a44f9d7782c2293240b",
+      "mode": "0o666"
+    }
+  ]
+}

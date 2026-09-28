@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artifact completion marker",
+  "type": "object",
+  "properties": {
+    "header": {
+      "type": "object"
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      }
+    }
+  },
+  "required": [
+    "header",
+    "files"
+  ],
+  "additionalProperties": false
+}

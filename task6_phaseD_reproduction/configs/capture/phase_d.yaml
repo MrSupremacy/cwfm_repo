@@ -1,0 +1,16 @@
+capture:
+  candidate_batch_size: 64
+  generation_batch_size: 128
+  teacher_batch_size: 256
+  probe_batch_size: 256
+  probe_seed: 0
+  shard_rows: 65536
+  compression: zstd
+  compression_level: 3
+  max_new_tokens: 4
+  num_beams: 1
+  do_sample: false
+  candidate_append_eos: true
+  candidate_length_normalized: true
+  candidate_tie_break: lower_label_id
+  best: native_macro_then_earliest_step

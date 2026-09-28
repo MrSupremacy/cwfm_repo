@@ -1,0 +1,7 @@
+imports:
+  phase_a_f0:
+    # Consolidated Task5/Phase-A-F0 normalized metrics.json containing Dense-init
+    # and the six required E64 arms. Set the real path in configs/local/server.yaml.
+    normalized_metrics: /SET_ME/task5_phase_a_f0/results/data/normalized/main01/metrics.json
+    expected_sha256: /SET_ME/sha256
+    source_run_id: main01

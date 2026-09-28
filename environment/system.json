@@ -1,0 +1,49 @@
+{
+  "captured_utc": "2026-09-28T14:37:45Z",
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.4 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.4 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "kernel": "5.15.0-72-generic",
+  "architecture": "x86_64",
+  "gpu": {
+    "returncode": 0,
+    "stdout": "NVIDIA A800-SXM4-80GB, 535.161.08, 81920 MiB, 8.0",
+    "stderr": ""
+  },
+  "cuda_compiler": {
+    "returncode": 0,
+    "stdout": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2024 NVIDIA Corporation\nBuilt on Tue_Oct_29_23:50:19_PDT_2024\nCuda compilation tools, release 12.6, V12.6.85\nBuild cuda_12.6.r12.6/compiler.35059454_0",
+    "stderr": ""
+  },
+  "glibc": {
+    "returncode": 0,
+    "stdout": "ldd (Ubuntu GLIBC 2.39-0ubuntu8.7) 2.39\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nWritten by Roland McGrath and Ulrich Drepper.",
+    "stderr": ""
+  },
+  "gcc": {
+    "returncode": 0,
+    "stdout": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "stderr": ""
+  },
+  "bash": {
+    "returncode": 0,
+    "stdout": "GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)\nCopyright (C) 2022 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\nThis is free software; you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.",
+    "stderr": ""
+  },
+  "git": {
+    "error": "[Errno 2] No such file or directory: 'git'"
+  },
+  "cuda_directories": [
+    "cuda-12",
+    "cuda",
+    "cuda-12.6"
+  ],
+  "session_environment": {
+    "CUDA_HOME": "/usr/local/cuda"
+  },
+  "cpu": {
+    "model": "Intel Xeon Platinum 8350C @ 2.60GHz",
+    "sockets": 2,
+    "physical_cores": 64,
+    "logical_cpus": 128
+  },
+  "memory_bytes": 1079938793472
+}

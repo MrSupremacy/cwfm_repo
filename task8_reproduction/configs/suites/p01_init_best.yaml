@@ -1,0 +1,15 @@
+extends:
+  - ../base/default.yaml
+
+suite:
+  name: p01_init_best
+  phases: [P0, P1]
+  populations: [diagnostic_128, full_validation]
+  checkpoint_roles: [init, best]
+  full_cells: D9
+  local_replay_cells:
+    - {experts: 64, k: 6, label: A3_low}
+    - {experts: 256, k: 26, label: A3_sparse}
+    - {experts: 256, k: 51, label: A3_wide}
+    - {experts: 128, k: 26, label: B1_bridge}
+

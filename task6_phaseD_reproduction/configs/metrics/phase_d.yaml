@@ -1,0 +1,13 @@
+metrics:
+  chunk_rows: 8192
+  seed_ddof: 1
+  layer_ddof: 0
+  load_balance: [cv]
+  selection_quality: [oracle_overlap, activation_coverage]
+  stability: [churn]
+  specialization: [domain_utilization, js_distance, expert_domain_mi, expert_domain_nmi]
+  specialization_primary_population: encoder_content
+  specialization_diagnostics: [encoder_all, decoder]
+  performance_comparison_role: best
+  final_performance: raw_diagnostics_only
+  png_dpi: 300

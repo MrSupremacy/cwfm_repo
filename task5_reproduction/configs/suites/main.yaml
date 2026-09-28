@@ -1,0 +1,13 @@
+extends:
+  - ../base/default.yaml
+  - ../arms/variants.yaml
+  - ../training/router.yaml
+  - ../capture/default.yaml
+  - ../metrics/default.yaml
+
+suite:
+  name: main
+  tasks: [sst2, mnli]
+  top_k: [6, 13, 19, 26]
+  seeds: [0, 1, 2]
+  include_dense: true

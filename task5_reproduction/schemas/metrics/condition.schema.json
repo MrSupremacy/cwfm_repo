@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Single-condition metric payload",
+  "type": "object",
+  "required": [
+    "protocol",
+    "analysis",
+    "condition",
+    "state",
+    "metric_group",
+    "model",
+    "layers"
+  ],
+  "properties": {
+    "protocol": {
+      "type": "string"
+    },
+    "analysis": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "object"
+    },
+    "state": {
+      "type": "object"
+    },
+    "metric_group": {
+      "enum": [
+        "performance",
+        "load_balance",
+        "churn",
+        "oracle_overlap",
+        "activation_coverage",
+        "coactivation_consistency"
+      ]
+    },
+    "model": {
+      "type": "object"
+    },
+    "layers": {
+      "type": "object"
+    },
+    "previous_state": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

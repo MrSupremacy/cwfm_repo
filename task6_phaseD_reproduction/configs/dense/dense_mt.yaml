@@ -1,0 +1,24 @@
+dense:
+  seed: 0
+  total_optimizer_steps: 2640
+  checkpoint_every_steps: 264
+  batch_size: 256
+  domain_batch_size: 64
+  accumulation_steps: 1
+  optimizer: Adam
+  lr: 1.0e-5
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  weight_decay: 0.0
+  amsgrad: false
+  foreach: false
+  fused: false
+  warmup_steps: 132
+  scheduler: linear_to_zero
+  max_grad_norm: 1.0
+  amp: false
+  gradient_checkpointing: false
+  log_every_steps: 20
+  save_step_zero: true
+  best_metric: native_macro_equal_domain
+  tie_break: earlier_step

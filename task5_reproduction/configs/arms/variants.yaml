@@ -1,0 +1,25 @@
+routing:
+  # Keep the decimal point in scientific notation: YAML must load floats.
+  l2_epsilon: 1.0e-12
+  rms_epsilon: 1.0e-6
+  temperature: 1.0
+  orthogonal_gain: 1.0
+  noise_epsilon: 1.0e-6
+  bias_update_rate: 0.001
+  tie_break: score_desc_expert_id_asc
+  r3: frozen_raw_centroid_rms_hard
+  r2_r3_equal_sets_required: false
+
+variants:
+  - {arm: R1, name: default, trainable: false}
+  - {arm: R2, name: default, trainable: false}
+  - {arm: R3, name: default, trainable: false}
+  - {arm: R4, name: default, trainable: true}
+  - {arm: R4-R2Init, name: default, trainable: true}
+  - {arm: G0, name: default, trainable: false}
+  - {arm: G1, name: default, trainable: true}
+  - {arm: G2, name: aux_0.001, trainable: true, aux_weight: 0.001}
+  - {arm: G2, name: aux_0.01, trainable: true, aux_weight: 0.01}
+  - {arm: G2, name: aux_0.1, trainable: true, aux_weight: 0.1}
+  - {arm: G3, name: default, trainable: true}
+  - {arm: G4, name: default, trainable: true}

@@ -1,0 +1,897 @@
+[
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/phaseA_f0_validation.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/yaml_shell_migration.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/local_validation.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_validation.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/report_template.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/experiment_report_v2.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_load_balance_gini.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_selected_mean.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_activation_coverage_activation_coverage.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_mnli_k6_churn_churn.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_load_balance_cv.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_ratio.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_performance_relative_performance.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_sst2_k6_churn_churn.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_sst2_k6_activation_coverage_activation_coverage.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_random_mean.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_excess.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_load_balance_gini.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_ratio.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_coactivation_consistency_random_mean.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_load_balance_maximum_share.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_performance_relative_performance.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_mnli_k6_activation_coverage_activation_coverage.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_sst2_k6_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_activation_coverage_activation_coverage.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/trajectory_mnli_k6_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/mnli_load_balance_maximum_share.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_excess.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_coactivation_consistency_selected_mean.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis_v2/figures/sst2_load_balance_cv.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/experiment_report_draft.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/trajectory_mnli_k6_churn_churn.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/mnli_load_balance_cv.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/mnli_coactivation_consistency_ratio.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/sst2_performance_relative_performance.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/trajectory_sst2_k6_churn_churn.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/trajectory_sst2_k6_activation_coverage_activation_coverage.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/layers_mnli_k13_load_balance_cv.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/sst2_coactivation_consistency_ratio.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/mnli_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/mnli_performance_relative_performance.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/sst2_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/trajectory_mnli_k6_activation_coverage_activation_coverage.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/layers_sst2_k13_load_balance_cv.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/trajectory_sst2_k6_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/trajectory_mnli_k6_oracle_overlap_oracle_overlap.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/formal20260830a_analysis/figures/sst2_load_balance_cv.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/smoke_audit.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/sst2_performance_relative_performance.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/phaseA_f0_unit.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/unit.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/layers_mnli_k13_load_balance_cv.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/phaseA_f0_real_assets.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/yaml_shell_unit.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/phase0_sst2.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/trajectory_mnli_k13_churn_churn.png",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/phase0_mnli.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "docs/reports/server_evidence/resume.json",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "tmp",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "inputs",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "artifacts",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "runs",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "tests/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "tests/fixtures/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "tests/regression/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "tests/integration/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "tests/smoke/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "tests/unit/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "scripts/20_validate/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "scripts/10_prepare/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "scripts/90_formal/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5_routing_testbed.egg-info",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/substrate/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/aggregation/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/metrics/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/metrics/stability/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/metrics/load_balance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/metrics/selection_quality/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/metrics/performance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/routing/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/visualization/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/data/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/capture/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/training/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task5_reproduction",
+    "path": "src/task5/common/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "docs/reports/server_acceptance_20260905.md",
+    "reason": "historical_report_or_server_evidence; not code; may disclose private operational paths"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "tmp",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "inputs",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": ".venv",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "tests/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "tests/fixtures/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "tests/regression/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "tests/integration/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "tests/smoke/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "tests/unit/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "scripts/20_validate/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6_phasea_fullft.egg-info",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/substrate/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/aggregation/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/metrics/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/metrics/stability/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/metrics/load_balance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/metrics/selection_quality/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/metrics/performance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/routing/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/comparison/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/visualization/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/data/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/capture/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/training/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_reproduction",
+    "path": "src/task6/common/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "inputs",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "tests/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "tests/fixtures/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "tests/regression/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "tests/integration/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "tests/smoke/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "tests/unit/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/substrate/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/imports/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/aggregation/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/metrics/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/metrics/stability/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/metrics/load_balance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/metrics/selection_quality/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/metrics/performance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/routing/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/visualization/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/data/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/capture/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/training/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseB_reproduction",
+    "path": "src/task6_phaseb/common/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "configs/local/server.yaml.before_e128_e256",
+    "reason": "superseded_manual_backup"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/aggregation/pipeline.py.pre_plot_fix",
+    "reason": "superseded_manual_backup"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/visualization/render.py.pre_plot_fix",
+    "reason": "superseded_manual_backup"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "tmp",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "inputs",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "tests/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "tests/fixtures/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "tests/regression/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "tests/integration/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "tests/smoke/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "tests/unit/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/substrate/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/aggregation/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/metrics/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/metrics/stability/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/metrics/load_balance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/metrics/selection_quality/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/metrics/performance/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/metrics/specialization/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/routing/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/visualization/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/data/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/capture/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/training/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/common/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/dense/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task6_phaseD_reproduction",
+    "path": "src/task6_phased/split/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "inputs",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "tests/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/substrate/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/reporting/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/p0/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/replay/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/compat/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/assets/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/routing/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/evaluation/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/data/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p01/common/__pycache__",
+    "reason": "asset_or_generated_directory"
+  },
+  {
+    "repo": "task8_reproduction",
+    "path": "src/task8_p2/__pycache__",
+    "reason": "asset_or_generated_directory"
+  }
+]

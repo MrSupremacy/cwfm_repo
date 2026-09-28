@@ -1,0 +1,14 @@
+capture:
+  generation_batch_size: 128
+  teacher_batch_size: 256
+  probe_batch_size: 256
+  coactivation_batch_size: 256
+  coactivation_chunk: 16384
+  probe_seed: 0
+  shard_rows: 65536
+  compression: zstd
+  compression_level: 3
+  max_new_tokens: 4
+  num_beams: 1
+  do_sample: false
+  best: max_correct_then_earliest_step

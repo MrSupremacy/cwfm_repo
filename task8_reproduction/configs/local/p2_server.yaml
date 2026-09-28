@@ -1,0 +1,6 @@
+extends:
+  - server.yaml
+
+p2:
+  output_root: /mnt/luoyulin_ckpt/fanxuankai/task8_p2_n
+  p1_output_root: /mnt/luoyulin_ckpt/fanxuankai/task8_p01

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "E: conceptual NPZ layer payload (layer ID is filename)",
+  "type": "object",
+  "properties": {
+    "valid_token_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "coactivation_sum": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number",
+          "minimum": 0
+        },
+        "minItems": 2048,
+        "maxItems": 2048
+      },
+      "minItems": 2048,
+      "maxItems": 2048
+    }
+  },
+  "required": [
+    "valid_token_count",
+    "coactivation_sum"
+  ],
+  "additionalProperties": false
+}

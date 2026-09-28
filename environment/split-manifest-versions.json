@@ -1,0 +1,26 @@
+{
+  "E64_seed1": {
+    "k-means-constrained": "0.9.1",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.4.3",
+    "scipy": "1.18.0",
+    "ortools": "9.15.6755",
+    "joblib": "1.5.3"
+  },
+  "E256_seed1": {
+    "k-means-constrained": "0.9.1",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.4.3",
+    "scipy": "1.18.0",
+    "ortools": "9.15.6755",
+    "joblib": "1.5.3"
+  },
+  "E128_seed1": {
+    "k-means-constrained": "0.9.1",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.4.3",
+    "scipy": "1.18.0",
+    "ortools": "9.15.6755",
+    "joblib": "1.5.3"
+  }
+}

@@ -1,0 +1,18 @@
+execution:
+  device: cpu
+  output_root: ../../tmp/local_output
+  input_root: inputs
+  tmp_root: tmp
+
+assets:
+  pretrained: inputs/pretrained/t5-small
+  dense_best: inputs/dense_mt/best
+  expert_splits:
+    64: inputs/expert_splits/E64_seed1
+    128: inputs/expert_splits/E128_seed1
+    256: inputs/expert_splits/E256_seed1
+  datasets:
+    sst2: {train: inputs/data/glue/sst2/train.parquet, validation: inputs/data/glue/sst2/validation.parquet}
+    mnli: {train: inputs/data/glue/mnli/train.parquet, validation: inputs/data/glue/mnli/validation_matched.parquet}
+    qnli: {train: inputs/data/glue/qnli/train.parquet, validation: inputs/data/glue/qnli/validation.parquet}
+    qqp: {train: inputs/data/glue/qqp/train.parquet, validation: inputs/data/glue/qqp/validation.parquet}

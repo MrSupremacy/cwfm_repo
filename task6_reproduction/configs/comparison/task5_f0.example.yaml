@@ -1,0 +1,11 @@
+comparison:
+  task5_f0_normalized: /absolute/path/to/task5/results/data/normalized/RUN_ID/metrics.json
+  mapping:
+    R2: R2
+    R2-soft: R2-soft
+    R4: R4o
+    R4-R2Init: R4d
+    R4-hard: R4o-hard
+    G1: G1
+    G2: G2
+    G4: G4

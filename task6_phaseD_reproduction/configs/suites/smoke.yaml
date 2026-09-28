@@ -1,0 +1,45 @@
+extends:
+  - ../base/default.yaml
+  - ../arms/phase_d.yaml
+  - ../training/router_f0.yaml
+  - ../dense/dense_mt.yaml
+  - ../capture/phase_d.yaml
+  - ../metrics/phase_d.yaml
+  - ../split/phase_d_seed1.yaml
+
+suite:
+  name: smoke
+  experts: [128]
+  seeds: [0]
+  budgets:
+    128: [19]
+  train_limit: 8
+  validation_limit: 8
+
+dense:
+  total_optimizer_steps: 2
+  checkpoint_every_steps: 1
+  warmup_steps: 1
+  batch_size: 8
+  domain_batch_size: 2
+  log_every_steps: 1
+
+training:
+  total_optimizer_steps: 2
+  checkpoint_every_steps: 1
+  warmup_steps: 1
+  batch_size: 8
+  domain_batch_size: 2
+  log_every_steps: 1
+
+data:
+  preprocess_workers: 1
+  loader_workers: 0
+  pin_memory: false
+
+capture:
+  candidate_batch_size: 2
+  generation_batch_size: 2
+  teacher_batch_size: 2
+  probe_batch_size: 2
+  shard_rows: 32

@@ -1,0 +1,15 @@
+execution:
+  device: cpu
+  output_root: outputs
+  tmp_root: tmp
+  task6_repo: ../../task6/task6_phaseD_reproduction
+  task6_suite: configs/suites/phase_d_f0.yaml
+  task6_local: configs/local/server.yaml
+
+assets:
+  dense_best: inputs/dense_best
+  datasets: inputs/data
+  expert_splits: inputs/expert_splits
+  r4d_init_root: inputs/r4d_init
+  r4d_best_root: inputs/r4d_best
+  r4d_catalog: inputs/r4d_catalog.json

@@ -1,0 +1,17 @@
+assets:
+  sst2:
+    dense: /absolute/path/to/task5_inputs/dense/sst2
+    split: /absolute/path/to/task5_inputs/expert_splits/sst2
+    source: local_files
+    train: /absolute/path/to/task5_inputs/datasets/glue/sst2/train.parquet
+    validation: /absolute/path/to/task5_inputs/datasets/glue/sst2/validation.parquet
+  mnli:
+    dense: /absolute/path/to/task5_inputs/dense/mnli
+    split: /absolute/path/to/task5_inputs/expert_splits/mnli
+    source: local_files
+    train: /absolute/path/to/task5_inputs/datasets/glue/mnli/train.parquet
+    validation: /absolute/path/to/task5_inputs/datasets/glue/mnli/validation_matched.parquet
+
+execution:
+  device: cuda:0
+  output_root: /absolute/path/to/task6_output

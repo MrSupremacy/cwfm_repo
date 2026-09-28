@@ -1,0 +1,11 @@
+extends: [phase_a_f1.yaml]
+
+suite:
+  name: smoke
+  top_k: [13]
+  seeds: [0]
+  train_limit: 512
+  validation_limit: 32
+
+execution:
+  output_root: tmp/smoke

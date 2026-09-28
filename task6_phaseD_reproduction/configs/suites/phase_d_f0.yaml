@@ -1,0 +1,12 @@
+extends:
+  - ../base/default.yaml
+  - ../arms/phase_d.yaml
+  - ../training/router_f0.yaml
+  - ../capture/phase_d.yaml
+  - ../metrics/phase_d.yaml
+  - ../split/phase_d_seed1.yaml
+
+suite:
+  name: phase_d_f0
+  experts: [128, 256]
+  seeds: [0, 1, 2]

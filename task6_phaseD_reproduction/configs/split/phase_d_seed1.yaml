@@ -1,0 +1,16 @@
+split_generation:
+  implementation: kmeans_constrained
+  k_means_constrained_version: 0.9.1
+  scikit_learn_version: 1.9.0
+  numpy_version: 2.4.3
+  scipy_version: 1.18.0
+  ortools_version: 9.15.6755
+  joblib_version: 1.5.3
+  normalize: l2_rows
+  random_state: 1
+  init: k-means++
+  n_init: 10
+  max_iter: 300
+  tol: 1.0e-4
+  copy_x: true
+  n_jobs: 1

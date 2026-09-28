@@ -1,0 +1,8 @@
+# Explicit extension of the completed formal20260830a run.
+# The base protocol remains immutable; only R4-R2Init writes new run records.
+extends: [formal.yaml]
+
+extension:
+  arm: R4-R2Init
+  base_run_id: formal20260830a
+  base_protocol: 3c0cf5cf10058f95a028ff7a81b3b4301fc1b0593fc0e81d19852436467e6173

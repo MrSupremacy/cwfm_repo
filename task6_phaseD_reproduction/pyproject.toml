@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task6-phased-f0"
+version = "0.1.0"
+description = "Task 6 Phase D four-domain E64/E128/E256 routed F0 experiments"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "pyarrow==25.0.1", "matplotlib>=3.8,<4", "PyYAML==6.0.3"]
+
+[project.optional-dependencies]
+model = ["torch==2.11.0", "transformers==4.57.6", "datasets==3.6.0", "sentencepiece>=0.2,<0.3", "protobuf>=4", "safetensors>=0.4"]
+split = ["k-means-constrained==0.9.1", "scikit-learn==1.9.0", "numpy==2.4.3", "scipy==1.18.0", "ortools==9.15.6755", "joblib==1.5.3"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+task6-phased = "task6_phased.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+

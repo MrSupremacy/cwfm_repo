@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task8-p01"
+version = "0.1.0"
+description = "Task 8 P0/P1 endpoint validation and selector-by-aggregation interventions"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "PyYAML>=6,<7", "matplotlib>=3.8,<4"]
+
+[project.optional-dependencies]
+model = ["torch==2.11.0", "transformers==4.57.6", "datasets==3.6.0", "pyarrow==25.0.1", "sentencepiece>=0.2,<0.3", "protobuf>=4", "safetensors>=0.4"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+task8-p01 = "task8_p01.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+

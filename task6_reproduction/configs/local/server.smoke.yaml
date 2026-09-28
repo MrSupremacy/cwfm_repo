@@ -1,0 +1,17 @@
+assets:
+  sst2:
+    dense: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/dense/sst2
+    split: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/expert_splits/sst2
+    source: local_files
+    train: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/sst2/train.parquet
+    validation: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/sst2/validation.parquet
+  mnli:
+    dense: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/dense/mnli
+    split: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/expert_splits/mnli
+    source: local_files
+    train: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/mnli/train.parquet
+    validation: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/mnli/validation_matched.parquet
+
+execution:
+  device: cuda:0
+  output_root: /mnt/luoyulin_ckpt/fanxuankai/task6_phaseA_f1_smoke

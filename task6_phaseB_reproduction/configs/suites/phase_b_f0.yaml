@@ -1,0 +1,12 @@
+extends:
+  - ../base/default.yaml
+  - ../arms/phase_b.yaml
+  - ../training/router_f0.yaml
+  - ../capture/phase_b.yaml
+  - ../metrics/phase_b.yaml
+
+suite:
+  name: phase_b_f0
+  tasks: [sst2, mnli]
+  experts: [128, 256]
+  seeds: [0, 1, 2]

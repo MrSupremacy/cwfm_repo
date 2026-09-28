@@ -1,0 +1,83 @@
+model:
+  d_model: 512
+  d_ff: 2048
+  encoder_layers: 6
+  decoder_layers: 6
+  feed_forward_proj: relu
+  precision: float32
+  tf32: false
+
+data:
+  dataset_name: glue
+  dataset_revision: d662abbac934b3435b33e8df161c6a4b8f83a67e
+  parquet_sha256:
+    sst2:
+      train: 0a2fe67250e703cebc9c8b705b32bb8cbdbbfa1cd33cafc5a94a04536abdb90f
+      validation: 410b41f54aac025b4e5541e547141f433076b6e8af9ae72beb33fb77e2ae34a7
+    mnli:
+      train: d62a63bffa5454678b0b2cb5228c006c0c64e04f806c564477d5d8ee27ff2652
+      validation: 78cead324678f0d113609e5f057cdff967bdbc6ca56132f751291dc2146ee780
+    qnli:
+      train: ebc7cb70a5bbde0b0336c3d51f31bb4df4673e908e8874b090b52169b1365c6c
+      validation: e69311b81dc65589286091d9905a27617a90436dd215c7a59832fa8f4f336169
+    qqp:
+      train: 4d6f02e643f7c36e9a4f7d4971a5ee9bd74063a319452fe6c87850c739774cd7
+      validation: efd86a539c412d74874ee451573d7bd142f56c47fe36de033b9f367d8bb0fa71
+  max_source_length: 128
+  max_target_length: 8
+  preprocess_workers: 4
+  loader_workers: 0
+  pin_memory: true
+  label_pad_token_id: -100
+  drop_last: false
+
+tasks:
+  sst2:
+    fields: [sentence]
+    template: 'sst2 sentence: {sentence}'
+    labels: [negative, positive]
+    validation_split: validation
+    train_count: 67349
+    validation_count: 872
+    probe_count: 872
+  mnli:
+    fields: [premise, hypothesis]
+    template: 'mnli premise: {premise} hypothesis: {hypothesis}'
+    labels: [entailment, neutral, contradiction]
+    validation_split: validation_matched
+    train_count: 392702
+    validation_count: 9815
+    probe_count: 872
+  qnli:
+    fields: [question, sentence]
+    template: 'qnli question: {question} sentence: {sentence}'
+    labels: [entailment, not_entailment]
+    validation_split: validation
+    train_count: 104743
+    validation_count: 5463
+    probe_count: 872
+  qqp:
+    fields: [question1, question2]
+    template: 'qqp question1: {question1} question2: {question2}'
+    labels: [not_duplicate, duplicate]
+    validation_split: validation
+    train_count: 363846
+    validation_count: 40430
+    probe_count: 872
+
+experiment:
+  phase: D
+  finetune_mode: frozen
+  split: balanced_kmeans
+  experts: [64, 128, 256]
+  budgets:
+    64: [6, 10, 13]
+    128: [13, 19, 26]
+    256: [26, 38, 51]
+
+execution:
+  device: cuda:0
+  output_root: .
+  input_root: inputs
+  tmp_root: tmp
+  deterministic: true

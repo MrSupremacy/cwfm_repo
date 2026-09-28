@@ -1,0 +1,39 @@
+model:
+  num_experts: 64
+  expert_size: 32
+  d_model: 512
+  d_ff: 2048
+  encoder_layers: 6
+  decoder_layers: 6
+  precision: float32
+  tf32: false
+
+data:
+  max_source_length: 128
+  max_target_length: 8
+  preprocess_workers: 4
+  loader_workers: 4
+  pin_memory: true
+
+tasks:
+  sst2:
+    template: 'sst2 sentence: {sentence}'
+    labels: [negative, positive]
+    validation_split: validation
+    train_count: 67349
+    validation_count: 872
+    probe_count: 872
+    log_every_steps: 20
+  mnli:
+    template: 'mnli premise: {premise} hypothesis: {hypothesis}'
+    labels: [entailment, neutral, contradiction]
+    validation_split: validation_matched
+    train_count: 392702
+    validation_count: 9815
+    probe_count: 2048
+    log_every_steps: 100
+
+execution:
+  device: cuda:0
+  output_root: .
+  deterministic: true

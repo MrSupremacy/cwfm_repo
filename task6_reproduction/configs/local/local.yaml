@@ -1,0 +1,17 @@
+assets:
+  sst2:
+    dense: ../../task5/task5_reproduction/inputs/dense/sst2
+    split: ../../task5/task5_reproduction/inputs/expert_splits/sst2
+    source: local_files
+    train: ../../task5/task5_reproduction/inputs/datasets/glue/sst2/train.parquet
+    validation: ../../task5/task5_reproduction/inputs/datasets/glue/sst2/validation.parquet
+  mnli:
+    dense: ../../task5/task5_reproduction/inputs/dense/mnli
+    split: ../../task5/task5_reproduction/inputs/expert_splits/mnli
+    source: local_files
+    train: ../../task5/task5_reproduction/inputs/datasets/glue/mnli/train.parquet
+    validation: ../../task5/task5_reproduction/inputs/datasets/glue/mnli/validation_matched.parquet
+
+execution:
+  device: cuda:0
+  output_root: .

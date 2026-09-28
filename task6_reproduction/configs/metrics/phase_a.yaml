@@ -1,0 +1,7 @@
+metrics:
+  enabled: [performance, load_balance, churn, oracle_overlap, activation_coverage]
+  load_balance: [cv]
+  chunk_rows: 8192
+  seed_ddof: 1
+  layer_ddof: 0
+  png_dpi: 300

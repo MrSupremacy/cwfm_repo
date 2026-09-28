@@ -1,0 +1,26 @@
+execution:
+  device: cuda:0
+  output_root: /mnt/luoyulin_ckpt/fanxuankai/task6_phaseD
+  input_root: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs
+  tmp_root: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/tmp
+
+assets:
+  pretrained: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/pretrained/t5-small
+  dense_best: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/dense_mt/best
+  expert_splits:
+    64: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/expert_splits/E64_seed1
+    128: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/expert_splits/E128_seed1
+    256: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/expert_splits/E256_seed1
+  datasets:
+    sst2:
+      train: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/sst2/train.parquet
+      validation: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/sst2/validation.parquet
+    mnli:
+      train: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/mnli/train.parquet
+      validation: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/mnli/validation_matched.parquet
+    qnli:
+      train: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/qnli/train.parquet
+      validation: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/qnli/validation.parquet
+    qqp:
+      train: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/qqp/train.parquet
+      validation: /mnt/luoyulin_code/fanxuankai/task6_phaseD_reproduction/inputs/data/glue/qqp/validation.parquet

@@ -1,0 +1,27 @@
+execution:
+  device: cuda:0
+  output_root: /mnt/luoyulin_ckpt/fanxuankai/task6_phaseB
+
+assets:
+  sst2:
+    source: local_files
+    dense: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/dense/sst2
+    train: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/sst2/train.parquet
+    validation: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/sst2/validation.parquet
+    splits:
+      128: /mnt/luoyulin_code/fanxuankai/task6_phaseB_splits_tmp/sst2/E128/parameter_seed0
+      256: /mnt/luoyulin_code/fanxuankai/task6_phaseB_splits_tmp/sst2/E256/parameter_seed0
+  mnli:
+    source: local_files
+    dense: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/dense/mnli
+    train: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/mnli/train.parquet
+    validation: /mnt/luoyulin_code/fanxuankai/task5_reproduction/inputs/datasets/glue/mnli/validation_matched.parquet
+    splits:
+      128: /mnt/luoyulin_code/fanxuankai/task6_phaseB_splits_tmp/mnli/E128/parameter_seed0
+      256: /mnt/luoyulin_code/fanxuankai/task6_phaseB_splits_tmp/mnli/E256/parameter_seed0
+
+imports:
+  phase_a_f0:
+    normalized_metrics: /mnt/luoyulin_ckpt/fanxuankai/task5_reproduction_output/results/data/normalized/formal20260830a/metrics.json
+    expected_sha256: a25f8c83d467a25377b952aa382c7c8bdf54de73a162366fa3aa77dfac55bcbc
+    source_run_id: formal20260830a
